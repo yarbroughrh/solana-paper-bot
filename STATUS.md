@@ -2,8 +2,8 @@
 
 Simulated Solana memecoin bot. No wallet, no keys, no transactions; fills are Jupiter *quotes* only.
 
-- **Updated:** 2026-10-23 11:25:04 ET
-- **Last tick:** 2026-10-23 11:24:49 ET (cycle 676)
+- **Updated:** 2026-10-23 11:30:08 ET
+- **Last tick:** 2026-10-23 11:29:53 ET (cycle 691)
 - **Params:** v3-tuned-2026-10-23
 - **Equity:** $682.62 vs start $1,000.00 → $-317.38 (-31.74%)
 - **Cash:** $609.62 | open position value $73.00
@@ -17,7 +17,7 @@ Simulated Solana memecoin bot. No wallet, no keys, no transactions; fills are Ju
 
 | Symbol | Strategy | Entered (ET) | Cost | Entry | Current | PnL |
 |---|---|---|---|---|---|---|
-| DOPE | S3_breakout | 2026-10-23 06:03:48 ET | $73.99 | $0.0028437183 | $0.0028054978 | $-0.99 (-1.3%) |
+| DOPE | S3_breakout | 2026-10-23 06:03:48 ET | $73.99 | $0.0028437183 | $0.0028054984 | $-0.99 (-1.3%) |
 
 ## Last 5 fills
 
@@ -29,4 +29,4 @@ Simulated Solana memecoin bot. No wallet, no keys, no transactions; fills are Ju
 | 2026-10-23 09:07:29 ET | VIRTUAL | $+2.58 (+12.1%) | time_stop 12h [after 44min suspension gap] |
 | 2026-10-23 09:07:27 ET | BLACKTOBER | $-25.57 (-34.4%) | hard_stop -34.4% [after 44min suspension gap] |
 
-API: `{'scan': {'api.dexscreener.com': 'ok 534 / err 0', 'api.geckoterminal.com': 'ok 55 / err 2', 'api.rugcheck.xyz': 'ok 2 / err 0', 'lite-api.jup.ag': 'ok 4 / err 0'}, 'monitor': {'api.dexscreener.com': 'ok 113 / err 0', 'lite-api.jup.ag': 'ok 469 / err 0'}}`
+API: `{'scan': {'api.dexscreener.com': 'ok 625 / err 0', 'api.geckoterminal.com': 'ok 65 / err 3', 'api.rugcheck.xyz': 'ok 2 / err 0', 'lite-api.jup.ag': 'ok 4 / err 0'}, 'monitor': {'api.dexscreener.com': 'ok 132 / err 0', 'lite-api.jup.ag': 'ok 545 / err 0'}}`
