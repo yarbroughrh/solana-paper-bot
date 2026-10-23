@@ -30,8 +30,8 @@
    "cost_usd": 73.99393736734685,
    "entry_impact_pct": 1.301,
    "entry_liq": 215121.39,
-   "mark_price": 0.0027263284188945376,
-   "peak_price": 0.0031944587297297396,
+   "mark_price": 0.003138850236822998,
+   "peak_price": 0.003220551766633931,
    "tp1_done": false,
    "decimals": 6,
    "pair": "6iep3EgqksbZwgzMBCyAJtiVtVYkCgL9BnPBEwLR8AGQ",
@@ -62,14 +62,14 @@
     "holders": 35837
    },
    "params_version": "v1",
-   "liq_now": 217301.59,
-   "dex_mark": 0.00273,
+   "liq_now": 231810.53,
+   "dex_mark": 0.003106,
    "mark_src": "jup_sell_quote",
-   "mark_time": "2026-10-23 15:38:01 ET",
+   "mark_time": "2026-10-23 16:42:02 ET",
    "sell_quote_fails": 0,
    "min_ret": -0.1151725069722751,
-   "max_ret": 0.12333868857856656,
-   "unmonitored_s": 11672
+   "max_ret": 0.13251436444008147,
+   "unmonitored_s": 14635
   }
  },
  "closed_trades": [
@@ -995,40 +995,52 @@
   {
    "t": "2026-10-23 15:37:30 ET",
    "equity": 644.81
+  },
+  {
+   "t": "2026-10-23 16:31:54 ET",
+   "equity": 656.36
+  },
+  {
+   "t": "2026-10-23 16:37:06 ET",
+   "equity": 654.98
+  },
+  {
+   "t": "2026-10-23 16:42:03 ET",
+   "equity": 655.55
   }
  ],
  "heartbeat": {
-  "time": "2026-10-23 15:38:02 ET",
-  "epoch": 1792784282.8068926,
-  "pid": 2291,
-  "supervisor_pid": 2139,
+  "time": "2026-10-23 16:42:03 ET",
+  "epoch": 1792788123.7766159,
+  "pid": 2927,
+  "supervisor_pid": 2138,
   "tokens_scanned": 94,
-  "pairs_priced": 75,
-  "equity": 644.82,
+  "pairs_priced": 78,
+  "equity": 655.55,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 1217,
+ "cycles": 1261,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 105,
+    "ok": 98,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 15,
+    "ok": 10,
     "err": 0,
     "last_err": null
    }
   },
   "monitor": {
    "api.dexscreener.com": {
-    "ok": 19,
+    "ok": 17,
     "err": 0,
     "last_err": null
    },
    "lite-api.jup.ag": {
-    "ok": 76,
+    "ok": 68,
     "err": 0,
     "last_err": null
    }
@@ -1286,6 +1298,12 @@
    "kind": "downtime",
    "seconds": 4301,
    "last_heartbeat": "2026-10-23 14:11:31 ET"
+  },
+  {
+   "t": "2026-10-23 16:27:25 ET",
+   "kind": "downtime",
+   "seconds": 2963,
+   "last_heartbeat": "2026-10-23 15:38:02 ET"
   }
  ]
 }

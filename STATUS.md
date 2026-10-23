@@ -2,22 +2,22 @@
 
 Simulated Solana memecoin bot. No wallet, no keys, no transactions; fills are Jupiter *quotes* only.
 
-- **Updated:** 2026-10-23 15:38:05 ET
-- **Last tick:** 2026-10-23 15:38:02 ET (cycle 1217)
+- **Updated:** 2026-10-23 16:37:34 ET
+- **Last tick:** 2026-10-23 16:37:17 ET (cycle 1247)
 - **Params:** v3-tuned-2026-10-23
-- **Equity:** $644.81 vs start $1,000.00 → $-355.19 (-35.52%)
-- **Cash:** $573.88 | open position value $70.94
-- **Today (2026-10-23 ET):** $-90.58 vs day start; entries HALTED (daily loss limit)
+- **Equity:** $654.94 vs start $1,000.00 → $-345.06 (-34.51%)
+- **Cash:** $573.88 | open position value $81.07
+- **Today (2026-10-23 ET):** $-80.45 vs day start; entries HALTED (daily loss limit)
 
 **All-time:** 21 closed positions, 5W / 16L (24% win), realized $-352.13
 
-**Since v3-tuned-2026-10-23** (started 2026-10-23 07:30:40 ET): equity $644.81 vs $742.43 → $-97.62 (-13.15%); 8 closed, 4W / 4L, realized $-89.97
+**Since v3-tuned-2026-10-23** (started 2026-10-23 07:30:40 ET): equity $654.94 vs $742.43 → $-87.49 (-11.78%); 8 closed, 4W / 4L, realized $-89.97
 
 ## Open positions (1)
 
 | Symbol | Strategy | Entered (ET) | Cost | Entry | Current | PnL |
 |---|---|---|---|---|---|---|
-| DOPE | S3_breakout | 2026-10-23 06:03:48 ET | $73.99 | $0.0028437183 | $0.0027261905 | $-3.06 (-4.1%) |
+| DOPE | S3_breakout | 2026-10-23 06:03:48 ET | $73.99 | $0.0028437183 | $0.0031155973 | $+7.07 (+9.6%) |
 
 ## Last 5 fills
 
@@ -29,4 +29,4 @@ Simulated Solana memecoin bot. No wallet, no keys, no transactions; fills are Ju
 | 2026-10-23 11:06:36 ET | McSauce | $+22.48 (+32.4%) | take_part +32.4% |
 | 2026-10-23 11:05:38 ET | CHUNKEE | $-31.33 (-45.1%) | hard_stop -45.1% |
 
-API: `{'scan': {'api.dexscreener.com': 'ok 105 / err 0', 'api.geckoterminal.com': 'ok 15 / err 0'}, 'monitor': {'api.dexscreener.com': 'ok 20 / err 0', 'lite-api.jup.ag': 'ok 77 / err 0'}}`
+API: `{'scan': {'api.dexscreener.com': 'ok 210 / err 0', 'api.geckoterminal.com': 'ok 25 / err 0'}, 'monitor': {'api.dexscreener.com': 'ok 38 / err 0', 'lite-api.jup.ag': 'ok 151 / err 0'}}`
