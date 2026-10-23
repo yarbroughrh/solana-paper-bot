@@ -5,7 +5,7 @@
  "start_usd": 1000.0,
  "desks": {
   "S1_launch": {
-   "cash": 199.0329208319726,
+   "cash": 129.8596477278494,
    "alloc": 333.3333333333333
   },
   "S2_dip": {
@@ -30,7 +30,7 @@
    "cost_usd": 73.99393736734685,
    "entry_impact_pct": 1.301,
    "entry_liq": 215121.39,
-   "mark_price": 0.002626180979784034,
+   "mark_price": 0.0026283562237434752,
    "peak_price": 0.0031944587297297396,
    "tp1_done": false,
    "decimals": 6,
@@ -62,14 +62,66 @@
     "holders": 35837
    },
    "params_version": "v1",
-   "liq_now": 214193.97,
-   "dex_mark": 0.002638,
+   "liq_now": 215996.91,
+   "dex_mark": 0.002681,
    "mark_src": "jup_sell_quote",
-   "mark_time": "2026-10-23 12:16:27 ET",
+   "mark_time": "2026-10-23 12:19:29 ET",
    "sell_quote_fails": 0,
    "min_ret": -0.08433470784054575,
    "max_ret": 0.12333868857856656,
    "unmonitored_s": 7371
+  },
+  "AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": {
+   "token": "AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump",
+   "symbol": "MCRIBINU",
+   "strategy": "S1_launch",
+   "entry_time": "2026-10-23 12:18:10 ET",
+   "entry_epoch": 1792772290.7934272,
+   "entry_price": 0.00031822150892089825,
+   "dex_price_at_entry": 0.0003333,
+   "tokens": 217374.5996576175,
+   "cost_usd": 69.17327310412321,
+   "entry_impact_pct": 0.262,
+   "entry_liq": 48132.76,
+   "mark_price": 0.0003107790567246832,
+   "peak_price": 0.00031822150892089825,
+   "tp1_done": false,
+   "decimals": 6,
+   "pair": "9nc82YaQaGPHDeUmA1JgERbqCQz69HvCkn2gzEC43Rua",
+   "dex": "pumpswap",
+   "signal": {
+    "age_h": 0.428,
+    "liq": 48132.76,
+    "mcap": 333302,
+    "m5": 5.82,
+    "h1": 615,
+    "h6": 615,
+    "h24": 615,
+    "v5": 38254.34,
+    "v1": 181177.5,
+    "v6": 181177.5,
+    "v24": 181177.5,
+    "br5": 2.083,
+    "br1": 2.91,
+    "n1": 3464,
+    "dex": "pumpswap",
+    "price": 0.0
+   },
+   "safety": {
+    "rug_score_norm": 1,
+    "top10_ex_pool": 29.9,
+    "lp_locked_pct": 100,
+    "insiders": 0,
+    "holders": 2048
+   },
+   "params_version": "v3-tuned-2026-10-23",
+   "mark_src": "jup_sell_quote",
+   "mark_time": "2026-10-23 12:19:31 ET",
+   "sell_quote_fails": 0,
+   "min_ret": -0.11611322102733423,
+   "max_ret": 0,
+   "liq_now": 44765.62,
+   "dex_mark": 0.0002896
   }
  },
  "closed_trades": [
@@ -840,47 +892,47 @@
   }
  ],
  "heartbeat": {
-  "time": "2026-10-23 12:16:28 ET",
-  "epoch": 1792772188.5452025,
+  "time": "2026-10-23 12:19:31 ET",
+  "epoch": 1792772371.842869,
   "pid": 3442,
   "supervisor_pid": 2126,
-  "tokens_scanned": 56,
-  "pairs_priced": 42,
-  "equity": 691.73,
+  "tokens_scanned": 87,
+  "pairs_priced": 70,
+  "equity": 690.17,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 830,
+ "cycles": 839,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 830,
+    "ok": 879,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 80,
+    "ok": 85,
     "err": 4,
     "last_err": "ConnectionError 2026-10-23 12:16:26 ET"
    },
    "api.rugcheck.xyz": {
-    "ok": 1,
+    "ok": 3,
     "err": 0,
     "last_err": null
    },
    "lite-api.jup.ag": {
-    "ok": 1,
+    "ok": 4,
     "err": 0,
     "last_err": null
    }
   },
   "monitor": {
    "api.dexscreener.com": {
-    "ok": 165,
+    "ok": 176,
     "err": 0,
     "last_err": null
    },
    "lite-api.jup.ag": {
-    "ok": 675,
+    "ok": 729,
     "err": 0,
     "last_err": null
    }

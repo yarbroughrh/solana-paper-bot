@@ -40,3 +40,4 @@
 [2026-10-23 11:06:36 ET] SELL S1_launch McSauce 100% @ $0.0006860058041 proceeds $91.95 pnl $+22.48 (+32.4%) reason=take_part +32.4% impact=1.59%
 [2026-10-23 12:04:03 ET] BUY S1_launch JailKimchi F2mnGB8pPXz8hfoyXpBMZSdKSu6bAcoA77ST8ai6pump $67.86 @ $0.0002672224771 (dex $0.0002714) impact=0.00% liq=$44,143 safety={'rug_score_norm': 1, 'top10_ex_pool': 13.2, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 950} params=v3-tuned-2026-10-23
 [2026-10-23 12:06:29 ET] SELL S1_launch JailKimchi 100% @ $0.0003214571296 proceeds $81.64 pnl $+13.77 (+20.3%) reason=take_part +20.3% impact=2.47%
+[2026-10-23 12:18:10 ET] BUY S1_launch MCRIBINU AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump $69.17 @ $0.0003182215089 (dex $0.0003333) impact=0.26% liq=$48,133 safety={'rug_score_norm': 1, 'top10_ex_pool': 29.9, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 2048} params=v3-tuned-2026-10-23
