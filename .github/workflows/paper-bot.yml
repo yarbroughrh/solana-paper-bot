@@ -14,7 +14,7 @@ permissions:
   actions: write
 
 env:
-  COMMIT_EVERY_SEC: '180'   # state commit interval
+  COMMIT_EVERY_SEC: '900'   # state commit interval
   GH_TOKEN: ${{ github.token }}
   TZ: America/New_York
 
