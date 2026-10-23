@@ -45,3 +45,4 @@
 [2026-10-23 12:42:45 ET] SELL S1_launch Schrödinger 100% @ $5.144164989e-06 proceeds $2.27 pnl $-66.59 (-96.7%) reason=hard_stop -96.7% impact=0.12%
 [2026-10-23 12:43:03 ET] HALT new entries: equity $624.47 <= -15% of day start $735.39
 [2026-10-23 13:35:35 ET] SELL S1_launch MCRIBINU 100% @ $0.0003967395227 proceeds $86.24 pnl $+17.07 (+24.7%) reason=take_part +24.7% impact=0.88%
+[2026-10-23 16:48:06 ET] SELL S3_breakout DOPE 100% @ $0.003446583198 proceeds $89.68 pnl $+15.69 (+21.2%) reason=take_part +21.2% impact=0.00%
