@@ -30,7 +30,7 @@
    "cost_usd": 73.99393736734685,
    "entry_impact_pct": 1.301,
    "entry_liq": 215121.39,
-   "mark_price": 0.002576581415262308,
+   "mark_price": 0.0025892843692231185,
    "peak_price": 0.0031944587297297396,
    "tp1_done": false,
    "decimals": 6,
@@ -62,12 +62,12 @@
     "holders": 35837
    },
    "params_version": "v1",
-   "liq_now": 210728.88,
-   "dex_mark": 0.002557,
+   "liq_now": 212164.89,
+   "dex_mark": 0.002592,
    "mark_src": "jup_sell_quote",
-   "mark_time": "2026-10-23 12:28:37 ET",
+   "mark_time": "2026-10-23 12:31:37 ET",
    "sell_quote_fails": 0,
-   "min_ret": -0.0947761935890925,
+   "min_ret": -0.09706540100292504,
    "max_ret": 0.12333868857856656,
    "unmonitored_s": 7371
   },
@@ -83,7 +83,7 @@
    "cost_usd": 69.17327310412321,
    "entry_impact_pct": 0.262,
    "entry_liq": 48132.76,
-   "mark_price": 0.00030694517590874307,
+   "mark_price": 0.0003103990400731051,
    "peak_price": 0.0003244629830996374,
    "tp1_done": false,
    "decimals": 6,
@@ -116,12 +116,12 @@
    },
    "params_version": "v3-tuned-2026-10-23",
    "mark_src": "jup_sell_quote",
-   "mark_time": "2026-10-23 12:28:37 ET",
+   "mark_time": "2026-10-23 12:31:39 ET",
    "sell_quote_fails": 0,
    "min_ret": -0.11611322102733423,
    "max_ret": 0.019613615056707667,
-   "liq_now": 45366.24,
-   "dex_mark": 0.000297
+   "liq_now": 48023.32,
+   "dex_mark": 0.0003313
   }
  },
  "closed_trades": [
@@ -897,28 +897,32 @@
   {
    "t": "2026-10-23 12:25:26 ET",
    "equity": 688.83
+  },
+  {
+   "t": "2026-10-23 12:30:19 ET",
+   "equity": 691.42
   }
  ],
  "heartbeat": {
-  "time": "2026-10-23 12:28:38 ET",
-  "epoch": 1792772918.9173496,
+  "time": "2026-10-23 12:31:41 ET",
+  "epoch": 1792773101.8041046,
   "pid": 3442,
   "supervisor_pid": 2126,
-  "tokens_scanned": 92,
-  "pairs_priced": 75,
-  "equity": 687.99,
+  "tokens_scanned": 91,
+  "pairs_priced": 74,
+  "equity": 689.07,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 866,
+ "cycles": 875,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 1053,
+    "ok": 1116,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 100,
+    "ok": 105,
     "err": 5,
     "last_err": "ConnectionError 2026-10-23 12:20:48 ET"
    },
@@ -928,25 +932,37 @@
     "last_err": null
    },
    "lite-api.jup.ag": {
-    "ok": 4,
+    "ok": 5,
     "err": 0,
     "last_err": null
    }
   },
   "monitor": {
    "api.dexscreener.com": {
-    "ok": 210,
+    "ok": 222,
     "err": 0,
     "last_err": null
    },
    "lite-api.jup.ag": {
-    "ok": 934,
+    "ok": 1002,
     "err": 0,
     "last_err": null
    }
   }
  },
- "last_candidates": [],
+ "last_candidates": [
+  {
+   "token": "99W3EEgNgJr8tcw6PMhCyJ93efcFbVN5DnYZuVGrpump",
+   "symbol": "Schr\u00f6dinger",
+   "strategy": "S1_launch",
+   "liq": 32330,
+   "m5": 17.3,
+   "h1": 186,
+   "age_h": 0.39,
+   "t": "2026-10-23 12:31:40 ET",
+   "decision": "skip: quote +11.0% vs dex price"
+  }
+ ],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
