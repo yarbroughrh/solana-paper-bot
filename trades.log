@@ -34,3 +34,7 @@
 [2026-10-23 09:07:29 ET] SELL S2_dip VIRTUAL 100% @ $0.0003206416859 proceeds $23.87 pnl $+2.58 (+12.1%) reason=time_stop 12h [after 44min suspension gap] impact=0.24%
 [2026-10-23 09:24:50 ET] BUY S1_launch ODIE 6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump $71.48 @ $0.0009423553369 (dex $0.0009611) impact=0.99% liq=$85,857 safety={'rug_score_norm': 1, 'top10_ex_pool': 2.2, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 6786} params=v3-tuned-2026-10-23
 [2026-10-23 09:26:33 ET] SELL S1_launch ODIE 100% @ $0.0006472686616 proceeds $49.10 pnl $-22.38 (-31.3%) reason=hard_stop -31.3% impact=1.43%
+[2026-10-23 11:04:43 ET] BUY S1_launch McSauce HYLhzvLHmC4gqckEyACvy2jDMoCizE2hS1qcJ1Q7pump $69.48 @ $0.000518318415 (dex $0.0005557) impact=0.78% liq=$63,829 safety={'rug_score_norm': 1, 'top10_ex_pool': 4.2, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 3122} params=v3-tuned-2026-10-23
+[2026-10-23 11:04:45 ET] BUY S1_launch CHUNKEE 7rN6DLfo2bo8T5JFzy9P7iSNvUiqydwVXsqVNub6pump $69.48 @ $0.0003777373243 (dex $0.0003741) impact=0.94% liq=$51,369 safety={'rug_score_norm': 1, 'top10_ex_pool': 16.4, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 3432} params=v3-tuned-2026-10-23
+[2026-10-23 11:05:38 ET] SELL S1_launch CHUNKEE 100% @ $0.0002074070935 proceeds $38.15 pnl $-31.33 (-45.1%) reason=hard_stop -45.1% impact=0.81%
+[2026-10-23 11:06:36 ET] SELL S1_launch McSauce 100% @ $0.0006860058041 proceeds $91.95 pnl $+22.48 (+32.4%) reason=take_part +32.4% impact=1.59%

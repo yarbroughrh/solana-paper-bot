@@ -5,7 +5,7 @@
  "start_usd": 1000.0,
  "desks": {
   "S1_launch": {
-   "cash": 194.110788544049,
+   "cash": 185.2594949223873,
    "alloc": 333.3333333333333
   },
   "S2_dip": {
@@ -30,7 +30,7 @@
    "cost_usd": 73.99393736734685,
    "entry_impact_pct": 1.301,
    "entry_liq": 215121.39,
-   "mark_price": 0.0029368180616129187,
+   "mark_price": 0.002933028731585515,
    "peak_price": 0.0031944587297297396,
    "tp1_done": false,
    "decimals": 6,
@@ -62,10 +62,10 @@
     "holders": 35837
    },
    "params_version": "v1",
-   "liq_now": 226618.25,
-   "dex_mark": 0.002949,
+   "liq_now": 226297.99,
+   "dex_mark": 0.002941,
    "mark_src": "jup_sell_quote",
-   "mark_time": "2026-10-23 11:03:40 ET",
+   "mark_time": "2026-10-23 11:06:50 ET",
    "sell_quote_fails": 0,
    "min_ret": -0.0735448368942766,
    "max_ret": 0.12333868857856656,
@@ -487,6 +487,56 @@
     "holders": 6786
    },
    "params_version": "v3-tuned-2026-10-23"
+  },
+  {
+   "token": "7rN6DLfo2bo8T5JFzy9P7iSNvUiqydwVXsqVNub6pump",
+   "symbol": "CHUNKEE",
+   "strategy": "S1_launch",
+   "entry_time": "2026-10-23 11:04:45 ET",
+   "exit_time": "2026-10-23 11:05:38 ET",
+   "entry_price": 0.00037773732425375623,
+   "exit_price": 0.00020740709353596847,
+   "tokens": 183927.1446416775,
+   "cost_usd": 69.4761,
+   "proceeds_usd": 38.1478,
+   "pnl_usd": -31.3284,
+   "pnl_pct": -45.09,
+   "reason": "hard_stop -45.1%",
+   "exit_impact_pct": 0.814,
+   "partial": false,
+   "entry_safety": {
+    "rug_score_norm": 1,
+    "top10_ex_pool": 16.4,
+    "lp_locked_pct": 100,
+    "insiders": 0,
+    "holders": 3432
+   },
+   "params_version": "v3-tuned-2026-10-23"
+  },
+  {
+   "token": "HYLhzvLHmC4gqckEyACvy2jDMoCizE2hS1qcJ1Q7pump",
+   "symbol": "McSauce",
+   "strategy": "S1_launch",
+   "entry_time": "2026-10-23 11:04:43 ET",
+   "exit_time": "2026-10-23 11:06:36 ET",
+   "entry_price": 0.0005183184149507129,
+   "exit_price": 0.0006860058041328492,
+   "tokens": 134041.4414586975,
+   "cost_usd": 69.4761,
+   "proceeds_usd": 91.9532,
+   "pnl_usd": 22.4771,
+   "pnl_pct": 32.35,
+   "reason": "take_part +32.4%",
+   "exit_impact_pct": 1.591,
+   "partial": false,
+   "entry_safety": {
+    "rug_score_norm": 1,
+    "top10_ex_pool": 4.2,
+    "lp_locked_pct": 100,
+    "insiders": 0,
+    "holders": 3122
+   },
+   "params_version": "v3-tuned-2026-10-23"
   }
  ],
  "bans": {
@@ -509,7 +559,9 @@
   "3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1,
   "7pChUehw9YjzKpmM9MUP1jAMZKoLte1hkFFKdLdGpump": 1,
   "HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 0,
-  "6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1
+  "6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1,
+  "7rN6DLfo2bo8T5JFzy9P7iSNvUiqydwVXsqVNub6pump": 1,
+  "HYLhzvLHmC4gqckEyACvy2jDMoCizE2hS1qcJ1Q7pump": 0
  },
  "cooldowns": {
   "4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": 1792615680.6788642,
@@ -525,7 +577,9 @@
   "3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792764448.0119529,
   "7pChUehw9YjzKpmM9MUP1jAMZKoLte1hkFFKdLdGpump": 1792747410.9824448,
   "HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792764450.0705411,
-  "6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792765593.8606825
+  "6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792765593.8606825,
+  "7rN6DLfo2bo8T5JFzy9P7iSNvUiqydwVXsqVNub6pump": 1792771538.000378,
+  "HYLhzvLHmC4gqckEyACvy2jDMoCizE2hS1qcJ1Q7pump": 1792771596.642914
  },
  "day": {
   "date": "2026-10-23",
@@ -696,40 +750,54 @@
   {
    "t": "2026-10-23 10:59:48 ET",
    "equity": 694.01
+  },
+  {
+   "t": "2026-10-23 11:04:45 ET",
+   "equity": 694.76
   }
  ],
  "heartbeat": {
-  "time": "2026-10-23 11:03:43 ET",
-  "epoch": 1792767823.5078745,
+  "time": "2026-10-23 11:06:52 ET",
+  "epoch": 1792768012.6424057,
   "pid": 2127,
   "supervisor_pid": 2126,
-  "tokens_scanned": 91,
-  "pairs_priced": 73,
-  "equity": 694.89,
+  "tokens_scanned": 89,
+  "pairs_priced": 71,
+  "equity": 685.94,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 613,
+ "cycles": 622,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 161,
+    "ok": 216,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 15,
+    "ok": 25,
     "err": 1,
     "last_err": "ReadTimeout 2026-10-23 10:59:47 ET"
-   }
-  },
-  "monitor": {
-   "api.dexscreener.com": {
-    "ok": 34,
+   },
+   "api.rugcheck.xyz": {
+    "ok": 2,
     "err": 0,
     "last_err": null
    },
    "lite-api.jup.ag": {
-    "ok": 133,
+    "ok": 4,
+    "err": 0,
+    "last_err": null
+   }
+  },
+  "monitor": {
+   "api.dexscreener.com": {
+    "ok": 44,
+    "err": 0,
+    "last_err": null
+   },
+   "lite-api.jup.ag": {
+    "ok": 196,
     "err": 0,
     "last_err": null
    }
