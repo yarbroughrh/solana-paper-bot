@@ -2,7 +2,7 @@
 
 Simulated Solana memecoin bot. No wallet, no keys, no transactions; fills are Jupiter *quotes* only.
 
-- **Updated:** 2026-10-23 10:54:30 ET
+- **Updated:** 2026-10-23 10:54:52 ET
 - **Last tick:** 2026-10-23 10:54:13 ET (cycle 586)
 - **Params:** v3-tuned-2026-10-23
 - **Equity:** $693.28 vs start $1,000.00 → $-306.72 (-30.67%)
@@ -30,4 +30,3 @@ Simulated Solana memecoin bot. No wallet, no keys, no transactions; fills are Ju
 | 2026-10-23 03:23:25 ET | McRib | $-7.86 (-10.7%) | hard_stop -10.7% |
 
 API: `{'scan': {'api.dexscreener.com': 'ok 1429 / err 7', 'api.geckoterminal.com': 'ok 172 / err 7', 'api.rugcheck.xyz': 'ok 3 / err 0', 'lite-api.jup.ag': 'ok 4 / err 1 / 429 1'}, 'monitor': {'api.dexscreener.com': 'ok 206 / err 6', 'lite-api.jup.ag': 'ok 1212 / err 235 / 429 228', 'api.jup.ag': 'ok 14 / err 1 / 429 1'}}`
-

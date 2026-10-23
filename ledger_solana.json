@@ -30,7 +30,7 @@
    "cost_usd": 73.99393736734685,
    "entry_impact_pct": 1.301,
    "entry_liq": 215121.39,
-   "mark_price": 0.002874805130964255,
+   "mark_price": 0.002941688189866477,
    "peak_price": 0.0031944587297297396,
    "tp1_done": false,
    "decimals": 6,
@@ -62,10 +62,10 @@
     "holders": 35837
    },
    "params_version": "v1",
-   "liq_now": 223995.16,
-   "dex_mark": 0.002876,
+   "liq_now": 226692.94,
+   "dex_mark": 0.002946,
    "mark_src": "jup_sell_quote",
-   "mark_time": "2026-10-23 10:54:10 ET",
+   "mark_time": "2026-10-23 10:57:36 ET",
    "sell_quote_fails": 0,
    "min_ret": -0.0735448368942766,
    "max_ret": 0.12333868857856656,
@@ -695,57 +695,39 @@
   }
  ],
  "heartbeat": {
-  "time": "2026-10-23 10:54:13 ET",
-  "epoch": 1792767253.9806612,
-  "pid": 27827,
-  "supervisor_pid": 27810,
-  "tokens_scanned": 89,
-  "pairs_priced": 71,
-  "equity": 693.28,
+  "time": "2026-10-23 10:57:38 ET",
+  "epoch": 1792767458.4829662,
+  "pid": 2127,
+  "supervisor_pid": 2126,
+  "tokens_scanned": 88,
+  "pairs_priced": 72,
+  "equity": 695.02,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 586,
+ "cycles": 595,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 1429,
-    "err": 7,
-    "last_err": "ReadTimeout 2026-10-23 10:51:09 ET"
-   },
-   "api.geckoterminal.com": {
-    "ok": 172,
-    "err": 7,
-    "last_err": "ReadTimeout 2026-10-23 10:51:21 ET"
-   },
-   "api.rugcheck.xyz": {
-    "ok": 3,
+    "ok": 54,
     "err": 0,
     "last_err": null
    },
-   "lite-api.jup.ag": {
-    "ok": 4,
-    "err": 1,
-    "last_err": "HTTP 429 2026-10-23 09:22:16 ET",
-    "r429": 1
+   "api.geckoterminal.com": {
+    "ok": 10,
+    "err": 0,
+    "last_err": null
    }
   },
   "monitor": {
    "api.dexscreener.com": {
-    "ok": 206,
-    "err": 6,
-    "last_err": "ReadTimeout 2026-10-23 10:51:29 ET"
+    "ok": 11,
+    "err": 0,
+    "last_err": null
    },
    "lite-api.jup.ag": {
-    "ok": 1212,
-    "err": 235,
-    "last_err": "HTTP 429 2026-10-23 10:53:50 ET",
-    "r429": 228
-   },
-   "api.jup.ag": {
-    "ok": 14,
-    "err": 1,
-    "last_err": "HTTP 429 2026-10-23 08:09:44 ET",
-    "r429": 1
+    "ok": 42,
+    "err": 0,
+    "last_err": null
    }
   }
  },
