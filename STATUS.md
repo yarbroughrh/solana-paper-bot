@@ -2,23 +2,23 @@
 
 Simulated Solana memecoin bot. No wallet, no keys, no transactions; fills are Jupiter *quotes* only.
 
-- **Updated:** 2026-10-23 12:48:22 ET
-- **Last tick:** 2026-10-23 12:48:08 ET (cycle 924)
+- **Updated:** 2026-10-23 12:53:56 ET
+- **Last tick:** 2026-10-23 12:53:51 ET (cycle 941)
 - **Params:** v3-tuned-2026-10-23
-- **Equity:** $620.66 vs start $1,000.00 → $-379.34 (-37.93%)
-- **Cash:** $487.64 | open position value $133.02
-- **Today (2026-10-23 ET):** $-114.73 vs day start; entries HALTED (daily loss limit)
+- **Equity:** $618.02 vs start $1,000.00 → $-381.98 (-38.20%)
+- **Cash:** $487.64 | open position value $130.38
+- **Today (2026-10-23 ET):** $-117.37 vs day start; entries HALTED (daily loss limit)
 
 **All-time:** 20 closed positions, 4W / 16L (20% win), realized $-369.20
 
-**Since v3-tuned-2026-10-23** (started 2026-10-23 07:30:40 ET): equity $620.66 vs $742.43 → $-121.77 (-16.40%); 7 closed, 3W / 4L, realized $-107.04
+**Since v3-tuned-2026-10-23** (started 2026-10-23 07:30:40 ET): equity $618.02 vs $742.43 → $-124.41 (-16.76%); 7 closed, 3W / 4L, realized $-107.04
 
 ## Open positions (2)
 
 | Symbol | Strategy | Entered (ET) | Cost | Entry | Current | PnL |
 |---|---|---|---|---|---|---|
-| DOPE | S3_breakout | 2026-10-23 06:03:48 ET | $73.99 | $0.0028437183 | $0.0026674431 | $-4.59 (-6.2%) |
-| MCRIBINU | S1_launch | 2026-10-23 12:18:10 ET | $69.17 | $0.00031822151 | $0.0002926403 | $-5.56 (-8.0%) |
+| DOPE | S3_breakout | 2026-10-23 06:03:48 ET | $73.99 | $0.0028437183 | $0.0026802689 | $-4.25 (-5.7%) |
+| MCRIBINU | S1_launch | 2026-10-23 12:18:10 ET | $69.17 | $0.00031822151 | $0.00027897162 | $-8.53 (-12.3%) |
 
 ## Last 5 fills
 
@@ -30,4 +30,4 @@ Simulated Solana memecoin bot. No wallet, no keys, no transactions; fills are Ju
 | 2026-10-23 11:05:38 ET | CHUNKEE | $-31.33 (-45.1%) | hard_stop -45.1% |
 | 2026-10-23 09:26:33 ET | ODIE | $-22.38 (-31.3%) | hard_stop -31.3% |
 
-API: `{'scan': {'api.dexscreener.com': 'ok 1433 / err 0', 'api.geckoterminal.com': 'ok 134 / err 7', 'api.rugcheck.xyz': 'ok 4 / err 0', 'lite-api.jup.ag': 'ok 7 / err 0'}, 'monitor': {'api.dexscreener.com': 'ok 273 / err 0', 'lite-api.jup.ag': 'ok 1412 / err 0'}}`
+API: `{'scan': {'api.dexscreener.com': 'ok 1552 / err 0', 'api.geckoterminal.com': 'ok 149 / err 7', 'api.rugcheck.xyz': 'ok 4 / err 0', 'lite-api.jup.ag': 'ok 7 / err 0'}, 'monitor': {'api.dexscreener.com': 'ok 293 / err 0', 'lite-api.jup.ag': 'ok 1533 / err 0'}}`
