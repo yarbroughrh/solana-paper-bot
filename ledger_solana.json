@@ -30,7 +30,7 @@
    "cost_usd": 73.99393736734685,
    "entry_impact_pct": 1.301,
    "entry_liq": 215121.39,
-   "mark_price": 0.0026758976981871886,
+   "mark_price": 0.0026766777145567694,
    "peak_price": 0.0031944587297297396,
    "tp1_done": false,
    "decimals": 6,
@@ -62,10 +62,10 @@
     "holders": 35837
    },
    "params_version": "v1",
-   "liq_now": 216132.12,
-   "dex_mark": 0.002684,
+   "liq_now": 216089.26,
+   "dex_mark": 0.002683,
    "mark_src": "jup_sell_quote",
-   "mark_time": "2026-10-23 12:58:52 ET",
+   "mark_time": "2026-10-23 13:01:45 ET",
    "sell_quote_fails": 0,
    "min_ret": -0.09706540100292504,
    "max_ret": 0.12333868857856656,
@@ -83,7 +83,7 @@
    "cost_usd": 69.17327310412321,
    "entry_impact_pct": 0.262,
    "entry_liq": 48132.76,
-   "mark_price": 0.00028080979260522784,
+   "mark_price": 0.00029294695442935796,
    "peak_price": 0.0003352365306584997,
    "tp1_done": false,
    "decimals": 6,
@@ -116,12 +116,12 @@
    },
    "params_version": "v3-tuned-2026-10-23",
    "mark_src": "jup_sell_quote",
-   "mark_time": "2026-10-23 12:58:49 ET",
+   "mark_time": "2026-10-23 13:01:45 ET",
    "sell_quote_fails": 0,
    "min_ret": -0.13302895054238384,
    "max_ret": 0.05346911274256749,
-   "liq_now": 44980.75,
-   "dex_mark": 0.0002903
+   "liq_now": 45602.15,
+   "dex_mark": 0.0002979
   }
  },
  "closed_trades": [
@@ -948,40 +948,44 @@
   {
    "t": "2026-10-23 12:55:24 ET",
    "equity": 621.69
+  },
+  {
+   "t": "2026-10-23 13:00:25 ET",
+   "equity": 620.63
   }
  ],
  "heartbeat": {
-  "time": "2026-10-23 12:58:54 ET",
-  "epoch": 1792774734.4012942,
+  "time": "2026-10-23 13:01:45 ET",
+  "epoch": 1792774905.5113366,
   "pid": 4591,
   "supervisor_pid": 2126,
-  "tokens_scanned": 91,
-  "pairs_priced": 74,
-  "equity": 618.3,
+  "tokens_scanned": 89,
+  "pairs_priced": 72,
+  "equity": 620.96,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 956,
+ "cycles": 965,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 101,
+    "ok": 159,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 15,
+    "ok": 20,
     "err": 0,
     "last_err": null
    }
   },
   "monitor": {
    "api.dexscreener.com": {
-    "ok": 19,
+    "ok": 30,
     "err": 0,
     "last_err": null
    },
    "lite-api.jup.ag": {
-    "ok": 112,
+    "ok": 177,
     "err": 0,
     "last_err": null
    }
