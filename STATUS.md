@@ -2,8 +2,8 @@
 
 Simulated Solana memecoin bot. No wallet, no keys, no transactions; fills are Jupiter *quotes* only.
 
-- **Updated:** 2026-10-23 17:22:58 ET
-- **Last tick:** 2026-10-23 17:22:45 ET (cycle 1382)
+- **Updated:** 2026-10-23 17:38:06 ET
+- **Last tick:** 2026-10-23 17:37:53 ET (cycle 1427)
 - **Params:** v3-tuned-2026-10-23
 - **Equity:** $663.56 vs start $1,000.00 → $-336.44 (-33.64%)
 - **Cash:** $663.56 | open position value $0.00
@@ -27,4 +27,4 @@ None.
 | 2026-10-23 12:06:29 ET | JailKimchi | $+13.77 (+20.3%) | take_part +20.3% |
 | 2026-10-23 11:06:36 ET | McSauce | $+22.48 (+32.4%) | take_part +32.4% |
 
-API: `{'scan': {'api.dexscreener.com': 'ok 945 / err 0', 'api.geckoterminal.com': 'ok 100 / err 0'}, 'monitor': {'api.dexscreener.com': 'ok 40 / err 0', 'lite-api.jup.ag': 'ok 159 / err 0'}}`
+API: `{'scan': {'api.dexscreener.com': 'ok 1260 / err 0', 'api.geckoterminal.com': 'ok 130 / err 0'}, 'monitor': {'api.dexscreener.com': 'ok 40 / err 0', 'lite-api.jup.ag': 'ok 159 / err 0'}}`
