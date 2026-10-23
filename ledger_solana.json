@@ -30,7 +30,7 @@
    "cost_usd": 73.99393736734685,
    "entry_impact_pct": 1.301,
    "entry_liq": 215121.39,
-   "mark_price": 0.002593936405712459,
+   "mark_price": 0.002576581415262308,
    "peak_price": 0.0031944587297297396,
    "tp1_done": false,
    "decimals": 6,
@@ -62,12 +62,12 @@
     "holders": 35837
    },
    "params_version": "v1",
-   "liq_now": 212729.95,
-   "dex_mark": 0.002604,
+   "liq_now": 210728.88,
+   "dex_mark": 0.002557,
    "mark_src": "jup_sell_quote",
-   "mark_time": "2026-10-23 12:25:37 ET",
+   "mark_time": "2026-10-23 12:28:37 ET",
    "sell_quote_fails": 0,
-   "min_ret": -0.08819118355535127,
+   "min_ret": -0.0947761935890925,
    "max_ret": 0.12333868857856656,
    "unmonitored_s": 7371
   },
@@ -83,7 +83,7 @@
    "cost_usd": 69.17327310412321,
    "entry_impact_pct": 0.262,
    "entry_liq": 48132.76,
-   "mark_price": 0.0003084375166675573,
+   "mark_price": 0.00030694517590874307,
    "peak_price": 0.0003244629830996374,
    "tp1_done": false,
    "decimals": 6,
@@ -116,12 +116,12 @@
    },
    "params_version": "v3-tuned-2026-10-23",
    "mark_src": "jup_sell_quote",
-   "mark_time": "2026-10-23 12:25:33 ET",
+   "mark_time": "2026-10-23 12:28:37 ET",
    "sell_quote_fails": 0,
    "min_ret": -0.11611322102733423,
    "max_ret": 0.019613615056707667,
-   "liq_now": 45528.12,
-   "dex_mark": 0.0002991
+   "liq_now": 45366.24,
+   "dex_mark": 0.000297
   }
  },
  "closed_trades": [
@@ -900,25 +900,25 @@
   }
  ],
  "heartbeat": {
-  "time": "2026-10-23 12:25:37 ET",
-  "epoch": 1792772737.3717563,
+  "time": "2026-10-23 12:28:38 ET",
+  "epoch": 1792772918.9173496,
   "pid": 3442,
   "supervisor_pid": 2126,
-  "tokens_scanned": 94,
-  "pairs_priced": 77,
-  "equity": 688.76,
+  "tokens_scanned": 92,
+  "pairs_priced": 75,
+  "equity": 687.99,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 857,
+ "cycles": 866,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 990,
+    "ok": 1053,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 95,
+    "ok": 100,
     "err": 5,
     "last_err": "ConnectionError 2026-10-23 12:20:48 ET"
    },
@@ -935,12 +935,12 @@
   },
   "monitor": {
    "api.dexscreener.com": {
-    "ok": 199,
+    "ok": 210,
     "err": 0,
     "last_err": null
    },
    "lite-api.jup.ag": {
-    "ok": 866,
+    "ok": 934,
     "err": 0,
     "last_err": null
    }
