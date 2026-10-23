@@ -30,7 +30,7 @@
    "cost_usd": 73.99393736734685,
    "entry_impact_pct": 1.301,
    "entry_liq": 215121.39,
-   "mark_price": 0.0026109748200000304,
+   "mark_price": 0.0026057602455342205,
    "peak_price": 0.0031944587297297396,
    "tp1_done": false,
    "decimals": 6,
@@ -62,12 +62,12 @@
     "holders": 35837
    },
    "params_version": "v1",
-   "liq_now": 214152.38,
-   "dex_mark": 0.002631,
+   "liq_now": 213608.22,
+   "dex_mark": 0.002618,
    "mark_src": "jup_sell_quote",
-   "mark_time": "2026-10-23 12:10:27 ET",
+   "mark_time": "2026-10-23 12:13:27 ET",
    "sell_quote_fails": 0,
-   "min_ret": -0.08184475732493379,
+   "min_ret": -0.08433470784054575,
    "max_ret": 0.12333868857856656,
    "unmonitored_s": 7371
   }
@@ -836,25 +836,25 @@
   }
  ],
  "heartbeat": {
-  "time": "2026-10-23 12:10:28 ET",
-  "epoch": 1792771828.4939957,
+  "time": "2026-10-23 12:13:28 ET",
+  "epoch": 1792772008.325603,
   "pid": 3442,
   "supervisor_pid": 2126,
-  "tokens_scanned": 92,
-  "pairs_priced": 75,
-  "equity": 691.33,
+  "tokens_scanned": 90,
+  "pairs_priced": 73,
+  "equity": 691.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 812,
+ "cycles": 821,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 713,
+    "ok": 770,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 70,
+    "ok": 75,
     "err": 3,
     "last_err": "ConnectionError 2026-10-23 12:02:38 ET"
    },
@@ -871,12 +871,12 @@
   },
   "monitor": {
    "api.dexscreener.com": {
-    "ok": 142,
+    "ok": 153,
     "err": 0,
     "last_err": null
    },
    "lite-api.jup.ag": {
-    "ok": 585,
+    "ok": 630,
     "err": 0,
     "last_err": null
    }
