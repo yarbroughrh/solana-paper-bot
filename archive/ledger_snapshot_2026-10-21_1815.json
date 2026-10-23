@@ -1,0 +1,231 @@
+{
+ "version": 1,
+ "mode": "PAPER / SIMULATION ONLY",
+ "created_at": "2026-10-21 15:30:28 ET",
+ "start_usd": 1000.0,
+ "desks": {
+  "S1_launch": {
+   "cash": 227.32247333813532,
+   "alloc": 333.3333333333333
+  },
+  "S2_dip": {
+   "cash": 315.3111700958333,
+   "alloc": 333.3333333333333
+  },
+  "S3_breakout": {
+   "cash": 309.06494460822034,
+   "alloc": 333.3333333333333
+  }
+ },
+ "open_positions": {},
+ "closed_trades": [
+  {
+   "token": "4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump",
+   "symbol": "Pokecity",
+   "strategy": "S2_dip",
+   "entry_time": "2026-10-21 15:30:41 ET",
+   "exit_time": "2026-10-21 15:48:00 ET",
+   "entry_price": 0.0011741923001947609,
+   "exit_price": 0.000962577447131505,
+   "tokens": 85164.925696935,
+   "cost_usd": 100.0,
+   "proceeds_usd": 81.9778,
+   "pnl_usd": -18.0222,
+   "pnl_pct": -18.02,
+   "reason": "hard_stop -19.6%",
+   "exit_impact_pct": 1.385,
+   "partial": false,
+   "entry_safety": {
+    "rug_score_norm": 1,
+    "top10_ex_pool": 4.5,
+    "lp_locked_pct": 100,
+    "insiders": 0
+   }
+  },
+  {
+   "token": "AyCogdFp27VYW7ZdNLFFykjhCaxo716SA9NzahKFpump",
+   "symbol": "4",
+   "strategy": "S1_launch",
+   "entry_time": "2026-10-21 15:43:48 ET",
+   "exit_time": "2026-10-21 15:50:03 ET",
+   "entry_price": 0.00016894918107280166,
+   "exit_price": 0.00013156006416056214,
+   "tokens": 297506.28465589497,
+   "cost_usd": 50.2634,
+   "proceeds_usd": 39.1399,
+   "pnl_usd": -11.1235,
+   "pnl_pct": -22.13,
+   "reason": "hard_stop -15.8%",
+   "exit_impact_pct": 0.0,
+   "partial": false,
+   "entry_safety": {
+    "rug_score_norm": 1,
+    "top10_ex_pool": 25.1,
+    "lp_locked_pct": 100,
+    "insiders": 0
+   }
+  },
+  {
+   "token": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
+   "symbol": "GLITCH",
+   "strategy": "S3_breakout",
+   "entry_time": "2026-10-21 15:38:42 ET",
+   "exit_time": "2026-10-21 16:24:40 ET",
+   "entry_price": 0.0022757699537442784,
+   "exit_price": 0.0019892643381237457,
+   "tokens": 43850.63889738,
+   "cost_usd": 99.794,
+   "proceeds_usd": 87.2305,
+   "pnl_usd": -12.5635,
+   "pnl_pct": -12.59,
+   "reason": "hard_stop -12.2%",
+   "exit_impact_pct": 0.208,
+   "partial": false,
+   "entry_safety": {
+    "rug_score_norm": 1,
+    "top10_ex_pool": 26.9,
+    "lp_locked_pct": 100,
+    "insiders": 18
+   }
+  },
+  {
+   "token": "Epq6mVv3veWEov1iLMA9wfzwbiCpa16MyFB4XTHEpump",
+   "symbol": "umi",
+   "strategy": "S1_launch",
+   "entry_time": "2026-10-21 16:28:46 ET",
+   "exit_time": "2026-10-21 17:20:02 ET",
+   "entry_price": 0.00020617332685456686,
+   "exit_price": 2.0260939666089306e-06,
+   "tokens": 464798.67198665254,
+   "cost_usd": 95.8291,
+   "proceeds_usd": 0.9417,
+   "pnl_usd": -94.8874,
+   "pnl_pct": -99.02,
+   "reason": "hard_stop -99.0%",
+   "exit_impact_pct": 21.065,
+   "partial": false,
+   "entry_safety": {
+    "rug_score_norm": 1,
+    "top10_ex_pool": 3.9,
+    "lp_locked_pct": 100,
+    "insiders": 0
+   }
+  },
+  {
+   "token": "GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump",
+   "symbol": "COMPUTE",
+   "strategy": "S3_breakout",
+   "entry_time": "2026-10-21 17:20:04 ET",
+   "exit_time": "2026-10-21 17:28:04 ET",
+   "entry_price": 0.00022793811269407587,
+   "exit_price": 0.00019703714235639233,
+   "tokens": 378788.5721566275,
+   "cost_usd": 86.3404,
+   "proceeds_usd": 74.6354,
+   "pnl_usd": -11.7049,
+   "pnl_pct": -13.56,
+   "reason": "hard_stop -12.6%",
+   "exit_impact_pct": 0.551,
+   "partial": false,
+   "entry_safety": {
+    "rug_score_norm": 1,
+    "top10_ex_pool": 19.1,
+    "lp_locked_pct": 100,
+    "insiders": 25
+   }
+  }
+ ],
+ "bans": {},
+ "consec_losses": {
+  "4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": 1,
+  "AyCogdFp27VYW7ZdNLFFykjhCaxo716SA9NzahKFpump": 1,
+  "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1,
+  "Epq6mVv3veWEov1iLMA9wfzwbiCpa16MyFB4XTHEpump": 1,
+  "GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump": 1
+ },
+ "cooldowns": {
+  "4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": 1792615680.6788642,
+  "AyCogdFp27VYW7ZdNLFFykjhCaxo716SA9NzahKFpump": 1792615803.5248275,
+  "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1792617881.0205214,
+  "Epq6mVv3veWEov1iLMA9wfzwbiCpa16MyFB4XTHEpump": 1792621202.474827,
+  "GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump": 1792621684.6814945
+ },
+ "day": {
+  "date": "2026-10-21",
+  "start_equity": 1000.0,
+  "halted": false
+ },
+ "equity_history": [
+  {
+   "t": "2026-10-21 15:30:41 ET",
+   "equity": 998.79
+  },
+  {
+   "t": "2026-10-21 15:35:15 ET",
+   "equity": 997.0
+  },
+  {
+   "t": "2026-10-21 15:40:12 ET",
+   "equity": 997.7
+  },
+  {
+   "t": "2026-10-21 15:45:04 ET",
+   "equity": 1010.48
+  },
+  {
+   "t": "2026-10-21 15:50:03 ET",
+   "equity": 966.13
+  },
+  {
+   "t": "2026-10-21 16:28:07 ET",
+   "equity": 958.29
+  },
+  {
+   "t": "2026-10-21 17:23:10 ET",
+   "equity": 859.94
+  }
+ ],
+ "heartbeat": {
+  "time": "2026-10-21 17:28:05 ET",
+  "pid": 149526,
+  "tokens_scanned": 86,
+  "pairs_priced": 61,
+  "equity": 851.7
+ },
+ "cycles": 95,
+ "api_stats": {
+  "api.dexscreener.com": {
+   "ok": 90,
+   "err": 0,
+   "last_err": null
+  },
+  "api.geckoterminal.com": {
+   "ok": 12,
+   "err": 0,
+   "last_err": null
+  },
+  "api.rugcheck.xyz": {
+   "ok": 3,
+   "err": 0,
+   "last_err": null
+  },
+  "lite-api.jup.ag": {
+   "ok": 3,
+   "err": 0,
+   "last_err": null
+  }
+ },
+ "last_candidates": [
+  {
+   "token": "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
+   "symbol": "Kimchi",
+   "strategy": "S2_dip",
+   "liq": 548501,
+   "m5": 2.33,
+   "h1": -21.37,
+   "age_h": 22.46,
+   "t": "2026-10-21 17:28:04 ET",
+   "decision": "reject: rugcheck danger: ['Top 10 holders high ownership', 'Single holder ownership']"
+  }
+ ]
+}

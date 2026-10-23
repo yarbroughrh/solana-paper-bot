@@ -1,0 +1,71 @@
+name: paper-bot
+# PAPER TRADING ONLY. No secrets, wallets or keys are used; the bot calls public read-only APIs.
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # backup in case the self-dispatch chain breaks
+  workflow_dispatch:
+
+concurrency:
+  group: paper-bot
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+env:
+  COMMIT_EVERY_SEC: '180'   # state commit interval
+  GH_TOKEN: ${{ github.token }}
+  TZ: America/New_York
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Skip redundant cron run
+        id: gate
+        run: |
+          echo "skip=false" >> "$GITHUB_OUTPUT"
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            last=$(git log -1 --format=%ct --grep='^state:' || echo 0); age=$(( $(date +%s) - ${last:-0} ))
+            others=$(gh run list --workflow paper-bot.yml --status in_progress --json databaseId \
+                     --jq "[.[] | select(.databaseId != ${{ github.run_id }})] | length" || echo 0)
+            echo "last state commit ${age}s ago, other runs in progress: ${others}"
+            if [ "$age" -lt 1200 ] && [ "${others:-0}" -gt 0 ]; then echo "skip=true" >> "$GITHUB_OUTPUT"; fi
+          fi
+
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.skip != 'true'
+        with:
+          python-version: '3.11'
+
+      - name: Run paper bot (5h45m) with periodic state commits
+        if: steps.gate.outputs.skip != 'true'
+        run: |
+          pip install -q -r requirements.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          commit_state() {
+            git add -A ledger_solana.json trades.log periods.jsonl STATUS.md diag/ 2>/dev/null
+            if git diff --cached --quiet; then echo "no state changes"; return 0; fi
+            git commit -q -m "state: $(date '+%Y-%m-%d %H:%M ET')"
+            for i in 1 2 3 4 5; do
+              git pull -q --rebase -X theirs origin main && git push -q origin HEAD:main && { echo "pushed $(git rev-parse --short HEAD)"; return 0; }
+              git rebase --abort 2>/dev/null; sleep $((i*5))
+            done
+            echo "WARN: state push failed"
+          }
+          touch bot.log; tail -F bot.log & TAIL=$!
+          ( while sleep "$COMMIT_EVERY_SEC"; do commit_state; done ) & LOOP=$!
+          timeout -s TERM -k 120 345m python3 -u bot.py || echo "bot exited rc=$?"
+          kill $LOOP $TAIL 2>/dev/null || true
+          sleep 2; commit_state
+
+      - name: Chain next run
+        if: always() && steps.gate.outputs.skip != 'true' && !cancelled()
+        run: gh workflow run paper-bot.yml --ref main

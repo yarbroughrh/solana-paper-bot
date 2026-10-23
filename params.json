@@ -1,0 +1,8 @@
+{
+  "_version": "v3-tuned-2026-10-23",
+  "_period": {"name": "v3-tuned-2026-10-23", "note": "Backtest rounds 1-2 (HF Pumpfun corpus Jun5-Jul14 2026): S1 only, buy-ratio>=1.4, stop -25%, TP +20% sell all, 2h time stop. S2/S3 disabled (failed held-out test). Backtest edge ~0 at best; not proven profitable."},
+  "ENABLED": {"S1_launch": true, "S2_dip": false, "S3_breakout": false},
+  "HARD_STOP": -0.25, "TP1": 0.20, "TP1_FRAC": 1.0, "TRAIL": 0.15,
+  "TIME_STOP_H": {"S1_launch": 2},
+  "S1": {"br5": 1.4, "br1": 1.4}
+}

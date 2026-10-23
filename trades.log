@@ -1,0 +1,36 @@
+[2026-10-21 15:30:41 ET] BUY S2_dip Pokecity 4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump $100.00 @ $0.0011741923 (dex $0.00116) impact=1.04% liq=$99,052 safety={'rug_score_norm': 1, 'top10_ex_pool': 4.5, 'lp_locked_pct': 100, 'insiders': 0}
+[2026-10-21 15:38:42 ET] BUY S3_breakout GLITCH 8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump $99.79 @ $0.002275769954 (dex $0.002256) impact=0.56% liq=$134,431 safety={'rug_score_norm': 1, 'top10_ex_pool': 26.9, 'lp_locked_pct': 100, 'insiders': 18}
+[2026-10-21 15:43:48 ET] BUY S1_launch 4 AyCogdFp27VYW7ZdNLFFykjhCaxo716SA9NzahKFpump $50.26 @ $0.0001689491811 (dex $0.0001832) impact=1.67% liq=$37,038 safety={'rug_score_norm': 1, 'top10_ex_pool': 25.1, 'lp_locked_pct': 100, 'insiders': 0}
+[2026-10-21 15:48:00 ET] SELL S2_dip Pokecity 100% @ $0.0009625774471 proceeds $81.98 pnl $-18.02 (-18.0%) reason=hard_stop -19.6% impact=1.38%
+[2026-10-21 15:50:03 ET] SELL S1_launch 4 100% @ $0.0001315600642 proceeds $39.14 pnl $-11.12 (-22.1%) reason=hard_stop -15.8% impact=0.00%
+[2026-10-21 16:24:40 ET] SELL S3_breakout GLITCH 100% @ $0.001989264338 proceeds $87.23 pnl $-12.56 (-12.6%) reason=hard_stop -12.2% impact=0.21%
+[2026-10-21 16:28:46 ET] BUY S1_launch umi Epq6mVv3veWEov1iLMA9wfzwbiCpa16MyFB4XTHEpump $95.83 @ $0.0002061733269 (dex $0.0001992) impact=1.54% liq=$37,662 safety={'rug_score_norm': 1, 'top10_ex_pool': 3.9, 'lp_locked_pct': 100, 'insiders': 0}
+[2026-10-21 17:20:02 ET] SELL S1_launch umi 100% @ $2.026093967e-06 proceeds $0.94 pnl $-94.89 (-99.0%) reason=hard_stop -99.0% impact=21.07%
+[2026-10-21 17:20:04 ET] BUY S3_breakout COMPUTE GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump $86.34 @ $0.0002279381127 (dex $0.0002476) impact=0.00% liq=$49,864 safety={'rug_score_norm': 1, 'top10_ex_pool': 19.1, 'lp_locked_pct': 100, 'insiders': 25}
+[2026-10-21 17:28:04 ET] SELL S3_breakout COMPUTE 100% @ $0.0001970371424 proceeds $74.64 pnl $-11.70 (-13.6%) reason=hard_stop -12.6% impact=0.55%
+[2026-10-22 20:25:40 ET] BUY S2_dip VIRTUAL HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump $21.29 @ $0.0002859779053 (dex $0.0002779) impact=2.00% liq=$44,643 safety={'rug_score_norm': 29, 'top10_ex_pool': 14.0, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 2054} params=v1
+[2026-10-22 20:32:24 ET] BUY S3_breakout MEGA DcHRotuS9ueBpbxanzBwTrnHpHJkhvhniafDQNKKpump $85.08 @ $0.000147591778 (dex $0.000145) impact=1.80% liq=$31,983 safety={'rug_score_norm': 1, 'top10_ex_pool': 2.8, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 6092} params=v1
+[2026-10-22 20:33:05 ET] BUY S2_dip OA EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump $85.51 @ $0.01824654677 (dex $0.01794) impact=0.26% liq=$390,543 safety={'rug_score_norm': 1, 'top10_ex_pool': 2.1, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 8867} params=v1
+[2026-10-22 21:24:40 ET] SELL S3_breakout MEGA 100% @ $2.045730249e-06 proceeds $1.18 pnl $-83.90 (-98.6%) reason=hard_stop -98.6% impact=1.91%
+[2026-10-22 21:24:41 ET] SELL S2_dip OA 100% @ $0.01496199416 proceeds $70.12 pnl $-15.39 (-18.0%) reason=hard_stop -18.0% impact=0.63%
+[2026-10-22 21:24:53 ET] BUY S3_breakout KIMCHINU BbaZXnPRUWYfvuhNWwK25vzhWd5PRwDJ5N47nJtgpump $75.20 @ $0.001026416269 (dex $0.001061) impact=0.84% liq=$91,813 safety={'rug_score_norm': 1, 'top10_ex_pool': 1.6, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 5590} params=v1
+[2026-10-22 21:24:55 ET] BUY S2_dip Pepper 9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump $75.20 @ $0.0005732268942 (dex $0.0005699) impact=0.27% liq=$84,416 safety={'rug_score_norm': 1, 'top10_ex_pool': 17.9, 'lp_locked_pct': 100, 'insiders': 27, 'holders': 11604} params=v1
+[2026-10-22 21:25:20 ET] SELL S3_breakout KIMCHINU 100% @ $0.0009274174458 proceeds $67.95 pnl $-7.25 (-9.7%) reason=hard_stop -9.6% impact=1.42%
+[2026-10-22 22:21:11 ET] SELL S2_dip Pepper 100% @ $0.0005246036756 proceeds $68.82 pnl $-6.38 (-8.5%) reason=hard_stop -8.5% impact=0.14%
+[2026-10-22 22:23:48 ET] BUY S2_dip McRib 8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump $36.96 @ $0.0007953631537 (dex $0.0007772) impact=1.98% liq=$88,168 safety={'rug_score_norm': 1, 'top10_ex_pool': 17.8, 'lp_locked_pct': 100, 'insiders': 107, 'holders': 14177} params=v1
+[2026-10-22 22:25:11 ET] SELL S2_dip McRib 100% @ $0.0007295331933 proceeds $33.91 pnl $-3.06 (-8.3%) reason=hard_stop -8.3% impact=0.00%
+[2026-10-23 00:22:31 ET] BUY S2_dip McRib 8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump $73.59 @ $0.0004959173309 (dex $0.000482) impact=0.17% liq=$69,717 safety={'rug_score_norm': 1, 'top10_ex_pool': 17.3, 'lp_locked_pct': 100, 'insiders': 109, 'holders': 15437} params=v1
+[2026-10-23 01:24:52 ET] BUY S2_dip BLACKTOBER 3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1 $73.35 @ $0.0003701025585 (dex $0.0003646) impact=0.30% liq=$56,218 safety={'rug_score_norm': 1, 'top10_ex_pool': 23.1, 'lp_locked_pct': 100, 'insiders': 174, 'holders': 7733} params=v1
+[2026-10-23 02:15:33 ET] SELL S2_dip BLACKTOBER 50% @ $0.0005152907756 proceeds $51.06 pnl $+14.39 (+39.2%) reason=take_part +39.0% impact=2.05%
+[2026-10-23 03:21:45 ET] SELL S2_dip BLACKTOBER 100% @ $0.0004349065174 proceeds $43.09 pnl $+6.42 (+17.5%) reason=trail -15% from peak impact=0.19%
+[2026-10-23 03:23:25 ET] SELL S2_dip McRib 100% @ $0.0004429613844 proceeds $65.73 pnl $-7.86 (-10.7%) reason=hard_stop -10.7% impact=1.00%
+[2026-10-23 03:23:26 ET] BAN McRib 8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump after 2 losses in a row
+[2026-10-23 04:23:27 ET] BUY S1_launch MICHIKO 7pChUehw9YjzKpmM9MUP1jAMZKoLte1hkFFKdLdGpump $75.07 @ $0.0001441680422 (dex $0.0001087) impact=0.48% liq=$28,464 safety={'rug_score_norm': 1, 'top10_ex_pool': 6.9, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 594} params=v1
+[2026-10-23 04:23:30 ET] SELL S1_launch MICHIKO 100% @ $0.0001233739911 proceeds $64.24 pnl $-10.83 (-14.4%) reason=hard_stop -14.4% impact=0.55%
+[2026-10-23 06:03:48 ET] BUY S3_breakout DOPE 33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump $73.99 @ $0.00284371825 (dex $0.002686) impact=1.30% liq=$215,121 safety={'rug_score_norm': 1, 'top10_ex_pool': 18.8, 'lp_locked_pct': 100, 'insiders': 403, 'holders': 35837} params=v1
+[2026-10-23 07:25:09 ET] BUY S2_dip BLACKTOBER 3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1 $74.29 @ $0.0003949275178 (dex $0.0003892) impact=1.11% liq=$58,374 safety={'rug_score_norm': 1, 'top10_ex_pool': 23.9, 'lp_locked_pct': 100, 'insiders': 178, 'holders': 7818} params=v1
+[2026-10-23 07:30:40 ET] PERIOD START v3-tuned-2026-10-23 equity $742.43 params=v3-tuned-2026-10-23
+[2026-10-23 09:07:27 ET] SELL S2_dip BLACKTOBER 100% @ $0.0002590131962 proceeds $48.72 pnl $-25.57 (-34.4%) reason=hard_stop -34.4% [after 44min suspension gap] impact=0.34%
+[2026-10-23 09:07:29 ET] SELL S2_dip VIRTUAL 100% @ $0.0003206416859 proceeds $23.87 pnl $+2.58 (+12.1%) reason=time_stop 12h [after 44min suspension gap] impact=0.24%
+[2026-10-23 09:24:50 ET] BUY S1_launch ODIE 6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump $71.48 @ $0.0009423553369 (dex $0.0009611) impact=0.99% liq=$85,857 safety={'rug_score_norm': 1, 'top10_ex_pool': 2.2, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 6786} params=v3-tuned-2026-10-23
+[2026-10-23 09:26:33 ET] SELL S1_launch ODIE 100% @ $0.0006472686616 proceeds $49.10 pnl $-22.38 (-31.3%) reason=hard_stop -31.3% impact=1.43%

@@ -1,0 +1,12 @@
+bot.pid
+scorecard_last_sent.txt
+__pycache__/
+*.pyc
+bot.log
+*.conflict.*
+*.tmp
+.run/
+research/backtest/data/
+.env
+*.key
+keypair*.json
