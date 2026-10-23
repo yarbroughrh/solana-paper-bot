@@ -5,7 +5,7 @@
  "start_usd": 1000.0,
  "desks": {
   "S1_launch": {
-   "cash": 185.2594949223873,
+   "cash": 117.39570637947261,
    "alloc": 333.3333333333333
   },
   "S2_dip": {
@@ -30,7 +30,7 @@
    "cost_usd": 73.99393736734685,
    "entry_impact_pct": 1.301,
    "entry_liq": 215121.39,
-   "mark_price": 0.0026463402645995056,
+   "mark_price": 0.00265266392903378,
    "peak_price": 0.0031944587297297396,
    "tp1_done": false,
    "decimals": 6,
@@ -62,14 +62,66 @@
     "holders": 35837
    },
    "params_version": "v1",
-   "liq_now": 216069.92,
-   "dex_mark": 0.002681,
+   "liq_now": 214997.25,
+   "dex_mark": 0.002656,
    "mark_src": "jup_sell_quote",
-   "mark_time": "2026-10-23 12:01:19 ET",
+   "mark_time": "2026-10-23 12:04:19 ET",
    "sell_quote_fails": 0,
    "min_ret": -0.07901007491766188,
    "max_ret": 0.12333868857856656,
    "unmonitored_s": 7371
+  },
+  "F2mnGB8pPXz8hfoyXpBMZSdKSu6bAcoA77ST8ai6pump": {
+   "token": "F2mnGB8pPXz8hfoyXpBMZSdKSu6bAcoA77ST8ai6pump",
+   "symbol": "JailKimchi",
+   "strategy": "S1_launch",
+   "entry_time": "2026-10-23 12:04:03 ET",
+   "entry_epoch": 1792771443.5618505,
+   "entry_price": 0.0002672224771143707,
+   "dex_price_at_entry": 0.0002714,
+   "tokens": 253959.88120366502,
+   "cost_usd": 67.86378854291468,
+   "entry_impact_pct": 0.0,
+   "entry_liq": 44143.24,
+   "mark_price": 0.00027311334964114423,
+   "peak_price": 0.0002814523176405883,
+   "tp1_done": false,
+   "decimals": 6,
+   "pair": "DLCQVdN5QJ82Mto74Zrs2y53B7vuir9cBpGnVpmJjyN7",
+   "dex": "pumpswap",
+   "signal": {
+    "age_h": 0.747,
+    "liq": 44143.24,
+    "mcap": 269904,
+    "m5": 12.59,
+    "h1": 369,
+    "h6": 369,
+    "h24": 369,
+    "v5": 43136.23,
+    "v1": 670921.86,
+    "v6": 670921.86,
+    "v24": 670921.86,
+    "br5": 2.995,
+    "br1": 1.613,
+    "n1": 5044,
+    "dex": "pumpswap",
+    "price": 0.0
+   },
+   "safety": {
+    "rug_score_norm": 1,
+    "top10_ex_pool": 13.2,
+    "lp_locked_pct": 100,
+    "insiders": 0,
+    "holders": 950
+   },
+   "params_version": "v3-tuned-2026-10-23",
+   "mark_src": "jup_sell_quote",
+   "mark_time": "2026-10-23 12:04:21 ET",
+   "sell_quote_fails": 0,
+   "min_ret": 0,
+   "max_ret": 0.053250911674347146,
+   "liq_now": 44143.24,
+   "dex_mark": 0.0002714
   }
  },
  "closed_trades": [
@@ -801,37 +853,47 @@
   }
  ],
  "heartbeat": {
-  "time": "2026-10-23 12:01:21 ET",
-  "epoch": 1792771281.730577,
+  "time": "2026-10-23 12:04:23 ET",
+  "epoch": 1792771463.005989,
   "pid": 3442,
   "supervisor_pid": 2126,
-  "tokens_scanned": 90,
-  "pairs_priced": 71,
-  "equity": 678.48,
+  "tokens_scanned": 58,
+  "pairs_priced": 43,
+  "equity": 680.14,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 785,
+ "cycles": 794,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 539,
+    "ok": 587,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
     "ok": 55,
-    "err": 2,
-    "last_err": "ConnectionError 2026-10-23 11:51:13 ET"
-   }
-  },
-  "monitor": {
-   "api.dexscreener.com": {
-    "ok": 108,
+    "err": 3,
+    "last_err": "ConnectionError 2026-10-23 12:02:38 ET"
+   },
+   "api.rugcheck.xyz": {
+    "ok": 1,
     "err": 0,
     "last_err": null
    },
    "lite-api.jup.ag": {
-    "ok": 430,
+    "ok": 1,
+    "err": 0,
+    "last_err": null
+   }
+  },
+  "monitor": {
+   "api.dexscreener.com": {
+    "ok": 119,
+    "err": 0,
+    "last_err": null
+   },
+   "lite-api.jup.ag": {
+    "ok": 477,
     "err": 0,
     "last_err": null
    }
