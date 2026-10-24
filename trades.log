@@ -46,3 +46,5 @@
 [2026-10-23 12:43:03 ET] HALT new entries: equity $624.47 <= -15% of day start $735.39
 [2026-10-23 13:35:35 ET] SELL S1_launch MCRIBINU 100% @ $0.0003967395227 proceeds $86.24 pnl $+17.07 (+24.7%) reason=take_part +24.7% impact=0.88%
 [2026-10-23 16:48:06 ET] SELL S3_breakout DOPE 100% @ $0.003446583198 proceeds $89.68 pnl $+15.69 (+21.2%) reason=take_part +21.2% impact=0.00%
+[2026-10-24 00:37:35 ET] BUY S1_launch DPM 59NZWxgJWRoHdXxsBFrXLBq4NEa9RBsmmFUqseLzpump $33.18 @ $0.0001473445406 (dex $0.0001548) impact=1.20% liq=$32,071 safety={'rug_score_norm': 1, 'top10_ex_pool': 13.9, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 2742} params=v3-tuned-2026-10-23
+[2026-10-24 00:42:14 ET] SELL S1_launch DPM 100% @ $0.00018527367 proceeds $41.72 pnl $+8.54 (+25.7%) reason=take_part +25.7% impact=2.98%

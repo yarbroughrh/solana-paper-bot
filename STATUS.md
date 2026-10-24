@@ -2,20 +2,22 @@
 
 Simulated Solana memecoin bot. No wallet, no keys, no transactions; fills are Jupiter *quotes* only.
 
-- **Updated:** 2026-10-24 00:24:18 ET
-- **Last tick:** 2026-10-24 00:24:05 ET (cycle 2634)
+- **Updated:** 2026-10-24 00:39:27 ET
+- **Last tick:** 2026-10-24 00:39:22 ET (cycle 2679)
 - **Params:** v3-tuned-2026-10-23
-- **Equity:** $663.56 vs start $1,000.00 → $-336.44 (-33.64%)
-- **Cash:** $663.56 | open position value $0.00
-- **Today (2026-10-24 ET):** $-0.00 vs day start; entries allowed
+- **Equity:** $663.62 vs start $1,000.00 → $-336.38 (-33.64%)
+- **Cash:** $630.38 | open position value $33.24
+- **Today (2026-10-24 ET):** $+0.06 vs day start; entries allowed
 
 **All-time:** 22 closed positions, 6W / 16L (27% win), realized $-336.44
 
-**Since v3-tuned-2026-10-23** (started 2026-10-23 07:30:40 ET): equity $663.56 vs $742.43 → $-78.87 (-10.62%); 9 closed, 5W / 4L, realized $-74.28
+**Since v3-tuned-2026-10-23** (started 2026-10-23 07:30:40 ET): equity $663.62 vs $742.43 → $-78.81 (-10.61%); 9 closed, 5W / 4L, realized $-74.28
 
-## Open positions (0)
+## Open positions (1)
 
-None.
+| Symbol | Strategy | Entered (ET) | Cost | Entry | Current | PnL |
+|---|---|---|---|---|---|---|
+| DPM | S1_launch | 2026-10-24 00:37:35 ET | $33.18 | $0.00014734454 | $0.00014763519 | $+0.07 (+0.2%) |
 
 ## Last 5 fills
 
@@ -27,4 +29,4 @@ None.
 | 2026-10-23 12:06:29 ET | JailKimchi | $+13.77 (+20.3%) | take_part +20.3% |
 | 2026-10-23 11:06:36 ET | McSauce | $+22.48 (+32.4%) | take_part +32.4% |
 
-API: `{'scan': {'api.dexscreener.com': 'ok 1260 / err 0', 'api.geckoterminal.com': 'ok 130 / err 0'}, 'monitor': {}}`
+API: `{'scan': {'api.dexscreener.com': 'ok 1575 / err 0', 'api.geckoterminal.com': 'ok 165 / err 0', 'api.rugcheck.xyz': 'ok 1 / err 0', 'lite-api.jup.ag': 'ok 2 / err 0'}, 'monitor': {'api.dexscreener.com': 'ok 7 / err 0', 'lite-api.jup.ag': 'ok 28 / err 0'}}`
