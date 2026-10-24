@@ -2,8 +2,8 @@
 
 Simulated Solana memecoin bot. No wallet, no keys, no transactions; fills are Jupiter *quotes* only.
 
-- **Updated:** 2026-10-24 02:42:46 ET
-- **Last tick:** 2026-10-24 02:42:33 ET (cycle 3046)
+- **Updated:** 2026-10-24 02:57:54 ET
+- **Last tick:** 2026-10-24 02:57:41 ET (cycle 3091)
 - **Params:** v3-tuned-2026-10-23
 - **Equity:** $545.47 vs start $1,000.00 → $-454.53 (-45.45%)
 - **Cash:** $545.47 | open position value $0.00
@@ -27,4 +27,4 @@ None.
 | 2026-10-23 16:48:06 ET | DOPE | $+15.69 (+21.2%) | take_part +21.2% |
 | 2026-10-23 13:35:35 ET | MCRIBINU | $+17.07 (+24.7%) | take_part +24.7% |
 
-API: `{'scan': {'api.dexscreener.com': 'ok 1365 / err 0', 'api.geckoterminal.com': 'ok 140 / err 0', 'api.rugcheck.xyz': 'ok 2 / err 0', 'lite-api.jup.ag': 'ok 4 / err 0'}, 'monitor': {'api.dexscreener.com': 'ok 35 / err 0', 'lite-api.jup.ag': 'ok 139 / err 1', 'api.jup.ag': 'ok 1 / err 0'}}`
+API: `{'scan': {'api.dexscreener.com': 'ok 1680 / err 0', 'api.geckoterminal.com': 'ok 175 / err 0', 'api.rugcheck.xyz': 'ok 2 / err 0', 'lite-api.jup.ag': 'ok 4 / err 0'}, 'monitor': {'api.dexscreener.com': 'ok 35 / err 0', 'lite-api.jup.ag': 'ok 139 / err 1', 'api.jup.ag': 'ok 1 / err 0'}}`
