@@ -5,7 +5,7 @@
  "start_usd": 1000.0,
  "desks": {
   "S1_launch": {
-   "cash": 91.31340574893831,
+   "cash": 31.425220129368522,
    "alloc": 333.3333333333333
   },
   "S2_dip": {
@@ -633,6 +633,31 @@
     "holders": 953
    },
    "params_version": "v3-tuned-2026-10-23"
+  },
+  {
+   "token": "45ofFMQgwE5vsK2GxCCwHLepa9BwxvexhBmTxmbupump",
+   "symbol": "DOGERUMP",
+   "strategy": "S1_launch",
+   "entry_time": "2026-10-24 02:40:32 ET",
+   "exit_time": "2026-10-24 02:40:35 ET",
+   "entry_price": 0.00018116391403295994,
+   "exit_price": 1.937799031288954e-06,
+   "tokens": 334148.76854866504,
+   "cost_usd": 60.5357,
+   "proceeds_usd": 0.6475,
+   "pnl_usd": -59.8882,
+   "pnl_pct": -98.93,
+   "reason": "hard_stop -98.9%",
+   "exit_impact_pct": 1.205,
+   "partial": false,
+   "entry_safety": {
+    "rug_score_norm": 1,
+    "top10_ex_pool": 7.5,
+    "lp_locked_pct": 100,
+    "insiders": 0,
+    "holders": 4847
+   },
+   "params_version": "v3-tuned-2026-10-23"
   }
  ],
  "bans": {
@@ -663,7 +688,8 @@
   "AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 0,
   "33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 0,
   "59NZWxgJWRoHdXxsBFrXLBq4NEa9RBsmmFUqseLzpump": 0,
-  "D7V5THHQRQ2wD3T7b7oaP19VUYqFWMsNZ7imLRD5pump": 1
+  "D7V5THHQRQ2wD3T7b7oaP19VUYqFWMsNZ7imLRD5pump": 1,
+  "45ofFMQgwE5vsK2GxCCwHLepa9BwxvexhBmTxmbupump": 1
  },
  "cooldowns": {
   "4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": 1792615680.6788642,
@@ -687,12 +713,13 @@
   "AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792780535.7117376,
   "33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792792086.856357,
   "59NZWxgJWRoHdXxsBFrXLBq4NEa9RBsmmFUqseLzpump": 1792820534.403173,
-  "D7V5THHQRQ2wD3T7b7oaP19VUYqFWMsNZ7imLRD5pump": 1792824387.677192
+  "D7V5THHQRQ2wD3T7b7oaP19VUYqFWMsNZ7imLRD5pump": 1792824387.677192,
+  "45ofFMQgwE5vsK2GxCCwHLepa9BwxvexhBmTxmbupump": 1792827635.8615568
  },
  "day": {
   "date": "2026-10-24",
   "start_equity": 663.56,
-  "halted": false
+  "halted": true
  },
  "equity_history": [
   {
@@ -1498,28 +1525,50 @@
   {
    "t": "2026-10-24 02:27:24 ET",
    "equity": 605.36
+  },
+  {
+   "t": "2026-10-24 02:32:27 ET",
+   "equity": 605.36
+  },
+  {
+   "t": "2026-10-24 02:37:29 ET",
+   "equity": 605.36
+  },
+  {
+   "t": "2026-10-24 02:42:33 ET",
+   "equity": 545.47
   }
  ],
  "heartbeat": {
-  "time": "2026-10-24 02:28:04 ET",
-  "epoch": 1792823284.8940477,
+  "time": "2026-10-24 02:42:53 ET",
+  "epoch": 1792824173.712388,
   "pid": 4539,
   "supervisor_pid": 2089,
-  "tokens_scanned": 96,
-  "pairs_priced": 82,
-  "equity": 605.36,
+  "tokens_scanned": 97,
+  "pairs_priced": 85,
+  "equity": 545.47,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 3003,
+ "cycles": 3047,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 1064,
+    "ok": 1372,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 110,
+    "ok": 140,
+    "err": 0,
+    "last_err": null
+   },
+   "api.rugcheck.xyz": {
+    "ok": 2,
+    "err": 0,
+    "last_err": null
+   },
+   "lite-api.jup.ag": {
+    "ok": 4,
     "err": 0,
     "last_err": null
    }
@@ -1531,7 +1580,7 @@
     "last_err": null
    },
    "lite-api.jup.ag": {
-    "ok": 138,
+    "ok": 139,
     "err": 1,
     "last_err": "HTTP 500 2026-10-24 01:41:35 ET"
    },
@@ -1542,7 +1591,19 @@
    }
   }
  },
- "last_candidates": [],
+ "last_candidates": [
+  {
+   "token": "45ofFMQgwE5vsK2GxCCwHLepa9BwxvexhBmTxmbupump",
+   "symbol": "DOGERUMP",
+   "strategy": "S1_launch",
+   "liq": 41254,
+   "m5": 14.77,
+   "h1": 338,
+   "age_h": 0.24,
+   "t": "2026-10-24 02:40:32 ET",
+   "decision": "BOUGHT"
+  }
+ ],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
