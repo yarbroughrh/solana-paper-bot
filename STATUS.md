@@ -2,8 +2,8 @@
 
 Simulated Solana memecoin bot. No wallet, no keys, no transactions; fills are Jupiter *quotes* only.
 
-- **Updated:** 2026-10-24 01:57:22 ET
-- **Last tick:** 2026-10-24 01:57:08 ET (cycle 2911)
+- **Updated:** 2026-10-24 02:12:30 ET
+- **Last tick:** 2026-10-24 02:12:16 ET (cycle 2956)
 - **Params:** v3-tuned-2026-10-23
 - **Equity:** $605.36 vs start $1,000.00 → $-394.64 (-39.46%)
 - **Cash:** $605.36 | open position value $0.00
@@ -27,4 +27,4 @@ None.
 | 2026-10-23 13:35:35 ET | MCRIBINU | $+17.07 (+24.7%) | take_part +24.7% |
 | 2026-10-23 12:42:45 ET | Schrödinger | $-66.59 (-96.7%) | hard_stop -96.7% |
 
-API: `{'scan': {'api.dexscreener.com': 'ok 420 / err 0', 'api.geckoterminal.com': 'ok 45 / err 0'}, 'monitor': {'api.dexscreener.com': 'ok 35 / err 0', 'lite-api.jup.ag': 'ok 138 / err 1', 'api.jup.ag': 'ok 1 / err 0'}}`
+API: `{'scan': {'api.dexscreener.com': 'ok 735 / err 0', 'api.geckoterminal.com': 'ok 75 / err 0'}, 'monitor': {'api.dexscreener.com': 'ok 35 / err 0', 'lite-api.jup.ag': 'ok 138 / err 1', 'api.jup.ag': 'ok 1 / err 0'}}`
