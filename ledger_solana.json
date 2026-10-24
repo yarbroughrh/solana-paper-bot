@@ -1585,59 +1585,41 @@
   {
    "t": "2026-10-24 03:43:05 ET",
    "equity": 545.47
+  },
+  {
+   "t": "2026-10-24 03:48:12 ET",
+   "equity": 545.47
+  },
+  {
+   "t": "2026-10-24 03:53:05 ET",
+   "equity": 545.47
   }
  ],
  "heartbeat": {
-  "time": "2026-10-24 03:43:05 ET",
-  "epoch": 1792827785.1054165,
-  "pid": 4539,
+  "time": "2026-10-24 03:57:48 ET",
+  "epoch": 1792828668.408523,
+  "pid": 5567,
   "supervisor_pid": 2089,
-  "tokens_scanned": 93,
-  "pairs_priced": 81,
+  "tokens_scanned": 92,
+  "pairs_priced": 80,
   "equity": 545.47,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 3226,
+ "cycles": 3270,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 2625,
+    "ok": 210,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 270,
-    "err": 0,
-    "last_err": null
-   },
-   "api.rugcheck.xyz": {
-    "ok": 2,
-    "err": 0,
-    "last_err": null
-   },
-   "lite-api.jup.ag": {
-    "ok": 4,
+    "ok": 25,
     "err": 0,
     "last_err": null
    }
   },
-  "monitor": {
-   "api.dexscreener.com": {
-    "ok": 35,
-    "err": 0,
-    "last_err": null
-   },
-   "lite-api.jup.ag": {
-    "ok": 139,
-    "err": 1,
-    "last_err": "HTTP 500 2026-10-24 01:41:35 ET"
-   },
-   "api.jup.ag": {
-    "ok": 1,
-    "err": 0,
-    "last_err": null
-   }
-  }
+  "monitor": {}
  },
  "last_candidates": [
   {
