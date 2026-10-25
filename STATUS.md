@@ -2,8 +2,8 @@
 
 Simulated Solana memecoin bot. No wallet, no keys, no transactions; fills are Jupiter *quotes* only.
 
-- **Updated:** 2026-10-25 01:12:02 ET
-- **Last tick:** 2026-10-25 01:11:48 ET (cycle 7069)
+- **Updated:** 2026-10-25 01:27:56 ET
+- **Last tick:** 2026-10-25 01:27:37 ET (cycle 7116)
 - **Params:** v3-tuned-2026-10-23
 - **Equity:** $545.47 vs start $1,000.00 → $-454.53 (-45.45%)
 - **Cash:** $545.47 | open position value $0.00
@@ -27,4 +27,4 @@ None.
 | 2026-10-23 16:48:06 ET | DOPE | $+15.69 (+21.2%) | take_part +21.2% |
 | 2026-10-23 13:35:35 ET | MCRIBINU | $+17.07 (+24.7%) | take_part +24.7% |
 
-API: `{'scan': {'api.dexscreener.com': 'ok 1260 / err 0', 'api.geckoterminal.com': 'ok 130 / err 0', 'api.rugcheck.xyz': 'ok 1 / err 0'}, 'monitor': {}}`
+API: `{'scan': {'api.dexscreener.com': 'ok 140 / err 0', 'api.geckoterminal.com': 'ok 15 / err 0'}, 'monitor': {}}`
