@@ -3317,33 +3317,45 @@
   {
    "t": "2026-10-25 13:45:08 ET",
    "equity": 532.5
+  },
+  {
+   "t": "2026-10-25 13:50:10 ET",
+   "equity": 532.5
+  },
+  {
+   "t": "2026-10-25 13:55:12 ET",
+   "equity": 532.5
+  },
+  {
+   "t": "2026-10-25 14:00:23 ET",
+   "equity": 532.5
   }
  ],
  "heartbeat": {
-  "time": "2026-10-25 13:45:28 ET",
-  "epoch": 1792950328.3820174,
+  "time": "2026-10-25 14:00:35 ET",
+  "epoch": 1792951235.0084658,
   "pid": 3951,
   "supervisor_pid": 2106,
-  "tokens_scanned": 100,
-  "pairs_priced": 73,
+  "tokens_scanned": 103,
+  "pairs_priced": 77,
   "equity": 532.5,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 9317,
+ "cycles": 9362,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 3357,
+    "ok": 3672,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 365,
+    "ok": 400,
     "err": 0,
     "last_err": null
    },
    "api.rugcheck.xyz": {
-    "ok": 7,
+    "ok": 8,
     "err": 0,
     "last_err": null
    },
@@ -3366,7 +3378,19 @@
    }
   }
  },
- "last_candidates": [],
+ "last_candidates": [
+  {
+   "token": "BhPGFJfTWhmVRUFp7HJXwTMecMGJsKR6hpCxhd4Fpump",
+   "symbol": "PUMP",
+   "strategy": "S1_launch",
+   "liq": 47005,
+   "m5": 2.5,
+   "h1": 513,
+   "age_h": 0.95,
+   "t": "2026-10-25 14:00:35 ET",
+   "decision": "reject: copycat/bluechip ticker PUMP"
+  }
+ ],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
