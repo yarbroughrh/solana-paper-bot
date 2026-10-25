@@ -65,3 +65,5 @@
 [2026-10-25 14:21:18 ET] SELL S1_launch DIRTITTY 100% @ $0.000131412525 proceeds $23.02 pnl $+4.57 (+24.7%) reason=take_part +24.7% impact=1.60%
 [2026-10-25 14:23:25 ET] BUY S1_launch MAGA 7te6N3TmHCrrBstucpSho4UYDMw8gwT4TPRCpuUfpump $23.02 @ $0.0001454181256 (dex $0.0001473) impact=1.12% liq=$31,301 safety={'rug_score_norm': 1, 'top10_ex_pool': 2.0, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 3565} params=v3-tuned-2026-10-23
 [2026-10-25 14:35:18 ET] SELL S1_launch MAGA 100% @ $0.0001028020143 proceeds $16.28 pnl $-6.75 (-29.3%) reason=hard_stop -29.3% impact=1.53%
+[2026-10-25 15:03:19 ET] BUY S1_launch AMC B3utmoAez4taLJQ5usxEeya7T5ZijchsETdQCMazpump $16.28 @ $0.0001709309462 (dex $0.0001784) impact=1.00% liq=$34,401 safety={'rug_score_norm': 1, 'top10_ex_pool': 17.7, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 5126} params=v3-tuned-2026-10-23
+[2026-10-25 15:12:10 ET] SELL S1_launch AMC 100% @ $0.0002084037888 proceeds $19.84 pnl $+3.57 (+21.9%) reason=take_part +21.9% impact=1.51%
