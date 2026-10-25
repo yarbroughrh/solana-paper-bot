@@ -58,3 +58,4 @@
 [2026-10-25 10:52:35 ET] BUY S1_launch ASSETS 45rVFMxTWbzat7KFEnDkdaga49e4hWYrpq2W34aQpump $37.97 @ $0.0004382080503 (dex $0.0004845) impact=1.00% liq=$58,316 safety={'rug_score_norm': 1, 'top10_ex_pool': 2.8, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 2568} params=v3-tuned-2026-10-23
 [2026-10-25 10:53:57 ET] SELL S1_launch ASSETS 100% @ $0.0005400529562 proceeds $46.80 pnl $+8.83 (+23.2%) reason=take_part +23.2% impact=0.64%
 [2026-10-25 12:37:01 ET] BUY S1_launch GTA 9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump $46.80 @ $0.0002516812628 (dex $0.0002488) impact=1.17% liq=$41,131 safety={'rug_score_norm': 1, 'top10_ex_pool': 4.8, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 595} params=v3-tuned-2026-10-23
+[2026-10-25 12:48:42 ET] SELL S1_launch GTA 100% @ $0.0003175113486 proceeds $59.04 pnl $+12.24 (+26.2%) reason=take_part +26.2% impact=0.88%
