@@ -2,8 +2,8 @@
 
 Simulated Solana memecoin bot. No wallet, no keys, no transactions; fills are Jupiter *quotes* only.
 
-- **Updated:** 2026-10-25 15:56:16 ET
-- **Last tick:** 2026-10-25 15:56:02 ET (cycle 9705)
+- **Updated:** 2026-10-25 16:11:23 ET
+- **Last tick:** 2026-10-25 16:11:09 ET (cycle 9750)
 - **Params:** v3-tuned-2026-10-23
 - **Equity:** $531.80 vs start $1,000.00 → $-468.20 (-46.82%)
 - **Cash:** $531.80 | open position value $0.00
@@ -27,4 +27,4 @@ None.
 | 2026-10-25 14:35:18 ET | MAGA | $-6.75 (-29.3%) | hard_stop -29.3% |
 | 2026-10-25 14:21:18 ET | DIRTITTY | $+4.57 (+24.7%) | take_part +24.7% |
 
-API: `{'scan': {'api.dexscreener.com': 'ok 1785 / err 0', 'api.geckoterminal.com': 'ok 185 / err 0', 'api.rugcheck.xyz': 'ok 5 / err 0', 'lite-api.jup.ag': 'ok 11 / err 0'}, 'monitor': {'api.dexscreener.com': 'ok 72 / err 0', 'lite-api.jup.ag': 'ok 285 / err 0'}}`
+API: `{'scan': {'api.dexscreener.com': 'ok 2100 / err 0', 'api.geckoterminal.com': 'ok 215 / err 0', 'api.rugcheck.xyz': 'ok 7 / err 0', 'lite-api.jup.ag': 'ok 15 / err 0'}, 'monitor': {'api.dexscreener.com': 'ok 72 / err 0', 'lite-api.jup.ag': 'ok 285 / err 0'}}`

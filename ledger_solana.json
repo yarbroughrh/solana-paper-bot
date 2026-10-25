@@ -5,7 +5,7 @@
  "start_usd": 1000.0,
  "desks": {
   "S1_launch": {
-   "cash": 17.7562850325,
+   "cash": 12.850925167500002,
    "alloc": 333.3333333333333
   },
   "S2_dip": {
@@ -883,6 +883,31 @@
     "holders": 3216
    },
    "params_version": "v3-tuned-2026-10-23"
+  },
+  {
+   "token": "HJDvou3SdCXsfkYMSP8TuJ89obskrAqiXyXu8N4Fpump",
+   "symbol": "LUCIASS",
+   "strategy": "S1_launch",
+   "entry_time": "2026-10-25 16:11:59 ET",
+   "exit_time": "2026-10-25 16:15:18 ET",
+   "entry_price": 0.00010899545653725327,
+   "exit_price": 7.888431915763913e-05,
+   "tokens": 162908.488083915,
+   "cost_usd": 17.7563,
+   "proceeds_usd": 12.8509,
+   "pnl_usd": -4.9054,
+   "pnl_pct": -27.63,
+   "reason": "hard_stop -27.6%",
+   "exit_impact_pct": 2.935,
+   "partial": false,
+   "entry_safety": {
+    "rug_score_norm": 1,
+    "top10_ex_pool": 5.6,
+    "lp_locked_pct": 100,
+    "insiders": 0,
+    "holders": 2436
+   },
+   "params_version": "v3-tuned-2026-10-23"
   }
  ],
  "bans": {
@@ -923,7 +948,8 @@
   "7te6N3TmHCrrBstucpSho4UYDMw8gwT4TPRCpuUfpump": 1,
   "B3utmoAez4taLJQ5usxEeya7T5ZijchsETdQCMazpump": 0,
   "97qwHhzWsjhaKpiHMxwMVJsGqG1xc2um4sE7ApgPpump": 1,
-  "ABTGtvVT28SAxRM22EdwrxzywgqKAfPTuhR6QJ3dpump": 0
+  "ABTGtvVT28SAxRM22EdwrxzywgqKAfPTuhR6QJ3dpump": 0,
+  "HJDvou3SdCXsfkYMSP8TuJ89obskrAqiXyXu8N4Fpump": 1
  },
  "cooldowns": {
   "4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": 1792615680.6788642,
@@ -957,7 +983,8 @@
   "7te6N3TmHCrrBstucpSho4UYDMw8gwT4TPRCpuUfpump": 1792956918.4916706,
   "B3utmoAez4taLJQ5usxEeya7T5ZijchsETdQCMazpump": 1792959130.551816,
   "97qwHhzWsjhaKpiHMxwMVJsGqG1xc2um4sE7ApgPpump": 1792959590.5691898,
-  "ABTGtvVT28SAxRM22EdwrxzywgqKAfPTuhR6QJ3dpump": 1792961074.6079435
+  "ABTGtvVT28SAxRM22EdwrxzywgqKAfPTuhR6QJ3dpump": 1792961074.6079435,
+  "HJDvou3SdCXsfkYMSP8TuJ89obskrAqiXyXu8N4Fpump": 1792962918.6597378
  },
  "day": {
   "date": "2026-10-25",
@@ -3556,50 +3583,62 @@
   {
    "t": "2026-10-25 15:56:22 ET",
    "equity": 531.8
+  },
+  {
+   "t": "2026-10-25 16:01:25 ET",
+   "equity": 531.8
+  },
+  {
+   "t": "2026-10-25 16:06:27 ET",
+   "equity": 531.8
+  },
+  {
+   "t": "2026-10-25 16:11:29 ET",
+   "equity": 531.8
   }
  ],
  "heartbeat": {
-  "time": "2026-10-25 16:00:24 ET",
-  "epoch": 1792958424.6435366,
+  "time": "2026-10-25 16:15:31 ET",
+  "epoch": 1792959331.967184,
   "pid": 2093,
   "supervisor_pid": 2092,
-  "tokens_scanned": 99,
-  "pairs_priced": 81,
-  "equity": 531.8,
+  "tokens_scanned": 96,
+  "pairs_priced": 80,
+  "equity": 526.89,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 9718,
+ "cycles": 9763,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 1876,
+    "ok": 2191,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 195,
+    "ok": 225,
     "err": 0,
     "last_err": null
    },
    "api.rugcheck.xyz": {
-    "ok": 5,
+    "ok": 7,
     "err": 0,
     "last_err": null
    },
    "lite-api.jup.ag": {
-    "ok": 11,
+    "ok": 17,
     "err": 0,
     "last_err": null
    }
   },
   "monitor": {
    "api.dexscreener.com": {
-    "ok": 72,
+    "ok": 84,
     "err": 0,
     "last_err": null
    },
    "lite-api.jup.ag": {
-    "ok": 285,
+    "ok": 335,
     "err": 0,
     "last_err": null
    }

@@ -71,3 +71,5 @@
 [2026-10-25 15:19:50 ET] SELL S1_launch LAUNCH 100% @ $9.980998945e-05 proceeds $14.15 pnl $-5.70 (-28.7%) reason=hard_stop -28.7% impact=1.48%
 [2026-10-25 15:40:56 ET] BUY S1_launch AAPL ABTGtvVT28SAxRM22EdwrxzywgqKAfPTuhR6QJ3dpump $14.15 @ $0.0001992527441 (dex $0.0001993) impact=1.02% liq=$36,554 safety={'rug_score_norm': 1, 'top10_ex_pool': 6.5, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 3216} params=v3-tuned-2026-10-23
 [2026-10-25 15:44:34 ET] SELL S1_launch AAPL 100% @ $0.0002500518988 proceeds $17.76 pnl $+3.61 (+25.5%) reason=take_part +25.5% impact=0.85%
+[2026-10-25 16:11:59 ET] BUY S1_launch LUCIASS HJDvou3SdCXsfkYMSP8TuJ89obskrAqiXyXu8N4Fpump $17.76 @ $0.0001089954565 (dex $0.0001068) impact=1.07% liq=$26,294 safety={'rug_score_norm': 1, 'top10_ex_pool': 5.6, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 2436} params=v3-tuned-2026-10-23
+[2026-10-25 16:15:18 ET] SELL S1_launch LUCIASS 100% @ $7.888431916e-05 proceeds $12.85 pnl $-4.91 (-27.6%) reason=hard_stop -27.6% impact=2.93%
