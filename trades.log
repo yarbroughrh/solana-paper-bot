@@ -64,3 +64,4 @@
 [2026-10-25 14:16:02 ET] BUY S1_launch DIRTITTY BZQnYXMu2L8XqC6S7atLgZUr3kXELCAdd6cuXuk9pump $18.46 @ $0.000105355063 (dex $0.0001217) impact=0.97% liq=$28,193 safety={'rug_score_norm': 1, 'top10_ex_pool': 3.2, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 3792} params=v3-tuned-2026-10-23
 [2026-10-25 14:21:18 ET] SELL S1_launch DIRTITTY 100% @ $0.000131412525 proceeds $23.02 pnl $+4.57 (+24.7%) reason=take_part +24.7% impact=1.60%
 [2026-10-25 14:23:25 ET] BUY S1_launch MAGA 7te6N3TmHCrrBstucpSho4UYDMw8gwT4TPRCpuUfpump $23.02 @ $0.0001454181256 (dex $0.0001473) impact=1.12% liq=$31,301 safety={'rug_score_norm': 1, 'top10_ex_pool': 2.0, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 3565} params=v3-tuned-2026-10-23
+[2026-10-25 14:35:18 ET] SELL S1_launch MAGA 100% @ $0.0001028020143 proceeds $16.28 pnl $-6.75 (-29.3%) reason=hard_stop -29.3% impact=1.53%
