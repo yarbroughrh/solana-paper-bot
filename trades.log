@@ -74,3 +74,4 @@
 [2026-10-25 16:11:59 ET] BUY S1_launch LUCIASS HJDvou3SdCXsfkYMSP8TuJ89obskrAqiXyXu8N4Fpump $17.76 @ $0.0001089954565 (dex $0.0001068) impact=1.07% liq=$26,294 safety={'rug_score_norm': 1, 'top10_ex_pool': 5.6, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 2436} params=v3-tuned-2026-10-23
 [2026-10-25 16:15:18 ET] SELL S1_launch LUCIASS 100% @ $7.888431916e-05 proceeds $12.85 pnl $-4.91 (-27.6%) reason=hard_stop -27.6% impact=2.93%
 [2026-10-25 16:26:36 ET] BUY S1_launch SWENEE GCN58WHB85WJ2kt3vwsmNUs8yhLTQNGcFguP77AKpump $12.85 @ $0.001087165282 (dex $0.001214) impact=0.68% liq=$94,361 safety={'rug_score_norm': 1, 'top10_ex_pool': 2.2, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 2238} params=v3-tuned-2026-10-23
+[2026-10-25 16:32:34 ET] SELL S1_launch SWENEE 100% @ $0.0007742190873 proceeds $9.15 pnl $-3.70 (-28.8%) reason=hard_stop -28.8% impact=1.34%
