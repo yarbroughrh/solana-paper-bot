@@ -2948,40 +2948,64 @@
   {
    "t": "2026-10-25 07:43:28 ET",
    "equity": 552.02
+  },
+  {
+   "t": "2026-10-25 07:48:29 ET",
+   "equity": 552.02
+  },
+  {
+   "t": "2026-10-25 07:53:30 ET",
+   "equity": 552.02
+  },
+  {
+   "t": "2026-10-25 07:58:32 ET",
+   "equity": 552.02
   }
  ],
  "heartbeat": {
-  "time": "2026-10-25 07:45:08 ET",
-  "epoch": 1792928708.443499,
+  "time": "2026-10-25 08:00:11 ET",
+  "epoch": 1792929611.5121698,
   "pid": 3786,
   "supervisor_pid": 2312,
-  "tokens_scanned": 85,
-  "pairs_priced": 65,
+  "tokens_scanned": 89,
+  "pairs_priced": 69,
   "equity": 552.02,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 8241,
+ "cycles": 8286,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 1857,
+    "ok": 2141,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 215,
+    "ok": 250,
     "err": 0,
     "last_err": null
    },
    "api.rugcheck.xyz": {
-    "ok": 2,
+    "ok": 3,
     "err": 0,
     "last_err": null
    }
   },
   "monitor": {}
  },
- "last_candidates": [],
+ "last_candidates": [
+  {
+   "token": "7iXNTHrz6BfgXcGzB74WSPkvXCCeUkyYnqyJNPtXpump",
+   "symbol": "GTA",
+   "strategy": "S1_launch",
+   "liq": 42562,
+   "m5": 17.55,
+   "h1": 500,
+   "age_h": 0.43,
+   "t": "2026-10-25 08:00:11 ET",
+   "decision": "reject: S1 insider network detected"
+  }
+ ],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
