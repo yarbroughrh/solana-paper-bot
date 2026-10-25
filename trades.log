@@ -53,3 +53,5 @@
 [2026-10-24 02:40:32 ET] BUY S1_launch DOGERUMP 45ofFMQgwE5vsK2GxCCwHLepa9BwxvexhBmTxmbupump $60.54 @ $0.000181163914 (dex $0.0002462) impact=1.25% liq=$41,254 safety={'rug_score_norm': 1, 'top10_ex_pool': 7.5, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 4847} params=v3-tuned-2026-10-23
 [2026-10-24 02:40:35 ET] SELL S1_launch DOGERUMP 100% @ $1.937799031e-06 proceeds $0.65 pnl $-59.89 (-98.9%) reason=hard_stop -98.9% impact=1.20%
 [2026-10-24 02:41:01 ET] HALT new entries: equity $545.47 <= -15% of day start $663.56
+[2026-10-25 06:01:56 ET] BUY S1_launch Chubby 6sMa2BJG1q8YS8so9HjxjMDK76v585WGPzqdYTYnpump $31.43 @ $0.0001492924061 (dex $0.0001547) impact=0.32% liq=$32,793 safety={'rug_score_norm': 1, 'top10_ex_pool': 24.2, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 705} params=v3-tuned-2026-10-23
+[2026-10-25 06:03:11 ET] SELL S1_launch Chubby 100% @ $0.000180404434 proceeds $37.97 pnl $+6.55 (+20.8%) reason=take_part +20.8% impact=0.28%

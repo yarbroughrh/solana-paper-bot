@@ -5,7 +5,7 @@
  "start_usd": 1000.0,
  "desks": {
   "S1_launch": {
-   "cash": 31.425220129368522,
+   "cash": 37.974128745,
    "alloc": 333.3333333333333
   },
   "S2_dip": {
@@ -658,6 +658,31 @@
     "holders": 4847
    },
    "params_version": "v3-tuned-2026-10-23"
+  },
+  {
+   "token": "6sMa2BJG1q8YS8so9HjxjMDK76v585WGPzqdYTYnpump",
+   "symbol": "Chubby",
+   "strategy": "S1_launch",
+   "entry_time": "2026-10-25 06:01:56 ET",
+   "exit_time": "2026-10-25 06:03:11 ET",
+   "entry_price": 0.0001492924061469863,
+   "exit_price": 0.0001804044340290325,
+   "tokens": 210494.431300335,
+   "cost_usd": 31.4252,
+   "proceeds_usd": 37.9741,
+   "pnl_usd": 6.5489,
+   "pnl_pct": 20.84,
+   "reason": "take_part +20.8%",
+   "exit_impact_pct": 0.277,
+   "partial": false,
+   "entry_safety": {
+    "rug_score_norm": 1,
+    "top10_ex_pool": 24.2,
+    "lp_locked_pct": 100,
+    "insiders": 0,
+    "holders": 705
+   },
+   "params_version": "v3-tuned-2026-10-23"
   }
  ],
  "bans": {
@@ -689,7 +714,8 @@
   "33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 0,
   "59NZWxgJWRoHdXxsBFrXLBq4NEa9RBsmmFUqseLzpump": 0,
   "D7V5THHQRQ2wD3T7b7oaP19VUYqFWMsNZ7imLRD5pump": 1,
-  "45ofFMQgwE5vsK2GxCCwHLepa9BwxvexhBmTxmbupump": 1
+  "45ofFMQgwE5vsK2GxCCwHLepa9BwxvexhBmTxmbupump": 1,
+  "6sMa2BJG1q8YS8so9HjxjMDK76v585WGPzqdYTYnpump": 0
  },
  "cooldowns": {
   "4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": 1792615680.6788642,
@@ -714,7 +740,8 @@
   "33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792792086.856357,
   "59NZWxgJWRoHdXxsBFrXLBq4NEa9RBsmmFUqseLzpump": 1792820534.403173,
   "D7V5THHQRQ2wD3T7b7oaP19VUYqFWMsNZ7imLRD5pump": 1792824387.677192,
-  "45ofFMQgwE5vsK2GxCCwHLepa9BwxvexhBmTxmbupump": 1792827635.8615568
+  "45ofFMQgwE5vsK2GxCCwHLepa9BwxvexhBmTxmbupump": 1792827635.8615568,
+  "6sMa2BJG1q8YS8so9HjxjMDK76v585WGPzqdYTYnpump": 1792926191.6703072
  },
  "day": {
   "date": "2026-10-25",
@@ -2837,28 +2864,40 @@
   {
    "t": "2026-10-25 05:58:14 ET",
    "equity": 545.47
+  },
+  {
+   "t": "2026-10-25 06:03:16 ET",
+   "equity": 552.02
+  },
+  {
+   "t": "2026-10-25 06:08:11 ET",
+   "equity": 552.02
+  },
+  {
+   "t": "2026-10-25 06:13:13 ET",
+   "equity": 552.02
   }
  ],
  "heartbeat": {
-  "time": "2026-10-25 05:59:55 ET",
-  "epoch": 1792922395.4269583,
-  "pid": 3739,
+  "time": "2026-10-25 06:14:54 ET",
+  "epoch": 1792923294.0573044,
+  "pid": 3786,
   "supervisor_pid": 2312,
   "tokens_scanned": 91,
-  "pairs_priced": 71,
-  "equity": 545.47,
+  "pairs_priced": 74,
+  "equity": 552.02,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 7926,
+ "cycles": 7971,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 70,
+    "ok": 203,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 10,
+    "ok": 25,
     "err": 0,
     "last_err": null
    }
