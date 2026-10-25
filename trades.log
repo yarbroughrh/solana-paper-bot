@@ -59,3 +59,5 @@
 [2026-10-25 10:53:57 ET] SELL S1_launch ASSETS 100% @ $0.0005400529562 proceeds $46.80 pnl $+8.83 (+23.2%) reason=take_part +23.2% impact=0.64%
 [2026-10-25 12:37:01 ET] BUY S1_launch GTA 9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump $46.80 @ $0.0002516812628 (dex $0.0002488) impact=1.17% liq=$41,131 safety={'rug_score_norm': 1, 'top10_ex_pool': 4.8, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 595} params=v3-tuned-2026-10-23
 [2026-10-25 12:48:42 ET] SELL S1_launch GTA 100% @ $0.0003175113486 proceeds $59.04 pnl $+12.24 (+26.2%) reason=take_part +26.2% impact=0.88%
+[2026-10-25 13:03:30 ET] BUY S1_launch ONLYTITTY CuNjRKXAA8gfqhpZtjU7xsV5ywe5DcZcsh2t6QdTpump $57.31 @ $0.0001111921859 (dex $0.0001161) impact=1.43% liq=$27,516 safety={'rug_score_norm': 1, 'top10_ex_pool': 5.5, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 2568} params=v3-tuned-2026-10-23
+[2026-10-25 13:09:58 ET] SELL S1_launch ONLYTITTY 100% @ $3.245143762e-05 proceeds $16.73 pnl $-40.58 (-70.8%) reason=hard_stop -70.8% impact=58.57%
