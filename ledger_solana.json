@@ -2960,28 +2960,40 @@
   {
    "t": "2026-10-25 07:58:32 ET",
    "equity": 552.02
+  },
+  {
+   "t": "2026-10-25 08:03:31 ET",
+   "equity": 552.02
+  },
+  {
+   "t": "2026-10-25 08:08:32 ET",
+   "equity": 552.02
+  },
+  {
+   "t": "2026-10-25 08:13:42 ET",
+   "equity": 552.02
   }
  ],
  "heartbeat": {
-  "time": "2026-10-25 08:00:11 ET",
-  "epoch": 1792929611.5121698,
+  "time": "2026-10-25 08:15:13 ET",
+  "epoch": 1792930513.4461653,
   "pid": 3786,
   "supervisor_pid": 2312,
-  "tokens_scanned": 89,
-  "pairs_priced": 69,
+  "tokens_scanned": 88,
+  "pairs_priced": 67,
   "equity": 552.02,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 8286,
+ "cycles": 8331,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 2141,
+    "ok": 2411,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 250,
+    "ok": 280,
     "err": 0,
     "last_err": null
    },
@@ -2993,19 +3005,7 @@
   },
   "monitor": {}
  },
- "last_candidates": [
-  {
-   "token": "7iXNTHrz6BfgXcGzB74WSPkvXCCeUkyYnqyJNPtXpump",
-   "symbol": "GTA",
-   "strategy": "S1_launch",
-   "liq": 42562,
-   "m5": 17.55,
-   "h1": 500,
-   "age_h": 0.43,
-   "t": "2026-10-25 08:00:11 ET",
-   "decision": "reject: S1 insider network detected"
-  }
- ],
+ "last_candidates": [],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
