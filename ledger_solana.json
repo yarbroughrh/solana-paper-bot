@@ -3670,28 +3670,40 @@
   {
    "t": "2026-10-25 17:12:02 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-25 17:16:56 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-25 17:21:58 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-25 17:27:00 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-25 17:15:35 ET",
-  "epoch": 1792962935.747998,
+  "time": "2026-10-25 17:30:50 ET",
+  "epoch": 1792963850.5742903,
   "pid": 3383,
   "supervisor_pid": 2092,
   "tokens_scanned": 93,
-  "pairs_priced": 78,
+  "pairs_priced": 76,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 9942,
+ "cycles": 9987,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 623,
+    "ok": 931,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 65,
+    "ok": 100,
     "err": 0,
     "last_err": null
    },
@@ -3703,19 +3715,7 @@
   },
   "monitor": {}
  },
- "last_candidates": [
-  {
-   "token": "3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump",
-   "symbol": "Chop",
-   "strategy": "S1_launch",
-   "liq": 47770,
-   "m5": 4.02,
-   "h1": 534,
-   "age_h": 0.97,
-   "t": "2026-10-25 17:15:35 ET",
-   "decision": "reject: S1 needs rug score <=20 (got 31)"
-  }
- ],
+ "last_candidates": [],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
