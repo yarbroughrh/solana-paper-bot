@@ -55,3 +55,5 @@
 [2026-10-24 02:41:01 ET] HALT new entries: equity $545.47 <= -15% of day start $663.56
 [2026-10-25 06:01:56 ET] BUY S1_launch Chubby 6sMa2BJG1q8YS8so9HjxjMDK76v585WGPzqdYTYnpump $31.43 @ $0.0001492924061 (dex $0.0001547) impact=0.32% liq=$32,793 safety={'rug_score_norm': 1, 'top10_ex_pool': 24.2, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 705} params=v3-tuned-2026-10-23
 [2026-10-25 06:03:11 ET] SELL S1_launch Chubby 100% @ $0.000180404434 proceeds $37.97 pnl $+6.55 (+20.8%) reason=take_part +20.8% impact=0.28%
+[2026-10-25 10:52:35 ET] BUY S1_launch ASSETS 45rVFMxTWbzat7KFEnDkdaga49e4hWYrpq2W34aQpump $37.97 @ $0.0004382080503 (dex $0.0004845) impact=1.00% liq=$58,316 safety={'rug_score_norm': 1, 'top10_ex_pool': 2.8, 'lp_locked_pct': 100, 'insiders': 0, 'holders': 2568} params=v3-tuned-2026-10-23
+[2026-10-25 10:53:57 ET] SELL S1_launch ASSETS 100% @ $0.0005400529562 proceeds $46.80 pnl $+8.83 (+23.2%) reason=take_part +23.2% impact=0.64%
