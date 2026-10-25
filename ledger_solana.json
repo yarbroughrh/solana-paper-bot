@@ -3658,33 +3658,45 @@
   {
    "t": "2026-10-25 16:56:47 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-25 17:01:49 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-25 17:06:51 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-25 17:12:02 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-25 17:00:49 ET",
-  "epoch": 1792962049.009095,
+  "time": "2026-10-25 17:15:35 ET",
+  "epoch": 1792962935.747998,
   "pid": 3383,
   "supervisor_pid": 2092,
-  "tokens_scanned": 94,
-  "pairs_priced": 79,
+  "tokens_scanned": 93,
+  "pairs_priced": 78,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 9898,
+ "cycles": 9942,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 315,
+    "ok": 623,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 35,
+    "ok": 65,
     "err": 0,
     "last_err": null
    },
    "api.rugcheck.xyz": {
-    "ok": 2,
+    "ok": 3,
     "err": 0,
     "last_err": null
    }
@@ -3696,12 +3708,12 @@
    "token": "3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump",
    "symbol": "Chop",
    "strategy": "S1_launch",
-   "liq": 45740,
-   "m5": 12.68,
-   "h1": 487,
-   "age_h": 0.73,
-   "t": "2026-10-25 17:00:49 ET",
-   "decision": "skip: size $9.15 too small (desk cash $9.15)"
+   "liq": 47770,
+   "m5": 4.02,
+   "h1": 534,
+   "age_h": 0.97,
+   "t": "2026-10-25 17:15:35 ET",
+   "decision": "reject: S1 needs rug score <=20 (got 31)"
   }
  ],
  "periods": [
