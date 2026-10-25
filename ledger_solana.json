@@ -3646,56 +3646,64 @@
   {
    "t": "2026-10-25 16:41:43 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-25 16:46:42 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-25 16:51:44 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-25 16:56:47 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-25 16:45:44 ET",
-  "epoch": 1792961144.9243376,
-  "pid": 2093,
+  "time": "2026-10-25 17:00:49 ET",
+  "epoch": 1792962049.009095,
+  "pid": 3383,
   "supervisor_pid": 2092,
-  "tokens_scanned": 96,
-  "pairs_priced": 81,
+  "tokens_scanned": 94,
+  "pairs_priced": 79,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 9853,
+ "cycles": 9898,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 2821,
+    "ok": 315,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 290,
+    "ok": 35,
     "err": 0,
     "last_err": null
    },
    "api.rugcheck.xyz": {
-    "ok": 9,
-    "err": 0,
-    "last_err": null
-   },
-   "lite-api.jup.ag": {
-    "ok": 18,
+    "ok": 2,
     "err": 0,
     "last_err": null
    }
   },
-  "monitor": {
-   "api.dexscreener.com": {
-    "ok": 107,
-    "err": 0,
-    "last_err": null
-   },
-   "lite-api.jup.ag": {
-    "ok": 425,
-    "err": 0,
-    "last_err": null
-   }
-  }
+  "monitor": {}
  },
- "last_candidates": [],
+ "last_candidates": [
+  {
+   "token": "3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump",
+   "symbol": "Chop",
+   "strategy": "S1_launch",
+   "liq": 45740,
+   "m5": 12.68,
+   "h1": 487,
+   "age_h": 0.73,
+   "t": "2026-10-25 17:00:49 ET",
+   "decision": "skip: size $9.15 too small (desk cash $9.15)"
+  }
+ ],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
