@@ -2,8 +2,8 @@
 
 Simulated Solana memecoin bot. No wallet, no keys, no transactions; fills are Jupiter *quotes* only.
 
-- **Updated:** 2026-10-25 13:15:29 ET
-- **Last tick:** 2026-10-25 13:15:15 ET (cycle 9227)
+- **Updated:** 2026-10-25 13:30:35 ET
+- **Last tick:** 2026-10-25 13:30:22 ET (cycle 9272)
 - **Params:** v3-tuned-2026-10-23
 - **Equity:** $532.50 vs start $1,000.00 → $-467.50 (-46.75%)
 - **Cash:** $532.50 | open position value $0.00
@@ -27,4 +27,4 @@ None.
 | 2026-10-25 06:03:11 ET | Chubby | $+6.55 (+20.8%) | take_part +20.8% |
 | 2026-10-24 02:40:35 ET | DOGERUMP | $-59.89 (-98.9%) | hard_stop -98.9% |
 
-API: `{'scan': {'api.dexscreener.com': 'ok 2727 / err 0', 'api.geckoterminal.com': 'ok 300 / err 0', 'api.rugcheck.xyz': 'ok 7 / err 0', 'lite-api.jup.ag': 'ok 6 / err 0'}, 'monitor': {'lite-api.jup.ag': 'ok 272 / err 0', 'api.dexscreener.com': 'ok 69 / err 0'}}`
+API: `{'scan': {'api.dexscreener.com': 'ok 3042 / err 0', 'api.geckoterminal.com': 'ok 335 / err 0', 'api.rugcheck.xyz': 'ok 7 / err 0', 'lite-api.jup.ag': 'ok 6 / err 0'}, 'monitor': {'lite-api.jup.ag': 'ok 272 / err 0', 'api.dexscreener.com': 'ok 69 / err 0'}}`
