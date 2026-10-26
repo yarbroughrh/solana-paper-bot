@@ -4674,52 +4674,52 @@
   {
    "t": "2026-10-26 14:14:21 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 14:19:33 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 14:24:26 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 14:29:27 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-26 14:17:01 ET",
-  "epoch": 1793038621.9588475,
+  "time": "2026-10-26 14:32:08 ET",
+  "epoch": 1793039528.164403,
   "pid": 3243,
   "supervisor_pid": 2106,
-  "tokens_scanned": 89,
-  "pairs_priced": 71,
+  "tokens_scanned": 88,
+  "pairs_priced": 68,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 13704,
+ "cycles": 13749,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 168,
+    "ok": 439,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 20,
-    "err": 0,
-    "last_err": null
+    "ok": 50,
+    "err": 1,
+    "last_err": "ConnectionError 2026-10-26 14:17:18 ET"
    },
    "api.rugcheck.xyz": {
-    "ok": 3,
+    "ok": 5,
     "err": 0,
     "last_err": null
    }
   },
   "monitor": {}
  },
- "last_candidates": [
-  {
-   "token": "AYqXTCgv7jw8RXU6UR7yoqMo7hD1ryNfctjVQs1zpump",
-   "symbol": "SOLYA",
-   "strategy": "S1_launch",
-   "liq": 61540,
-   "m5": 6,
-   "h1": 916,
-   "age_h": 0.71,
-   "t": "2026-10-26 14:17:01 ET",
-   "decision": "skip: size $9.15 too small (desk cash $9.15)"
-  }
- ],
+ "last_candidates": [],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
