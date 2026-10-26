@@ -4590,33 +4590,45 @@
   {
    "t": "2026-10-26 12:28:27 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 12:33:28 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 12:38:29 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 12:43:31 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-26 12:32:08 ET",
-  "epoch": 1793032328.2278273,
+  "time": "2026-10-26 12:47:12 ET",
+  "epoch": 1793033232.0582256,
   "pid": 4682,
   "supervisor_pid": 2311,
-  "tokens_scanned": 84,
-  "pairs_priced": 65,
+  "tokens_scanned": 87,
+  "pairs_priced": 67,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 13392,
+ "cycles": 13437,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 372,
+    "ok": 642,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 45,
+    "ok": 80,
     "err": 0,
     "last_err": null
    },
    "api.rugcheck.xyz": {
-    "ok": 1,
+    "ok": 2,
     "err": 0,
     "last_err": null
    }
