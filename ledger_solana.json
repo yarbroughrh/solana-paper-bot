@@ -4710,52 +4710,47 @@
   {
    "t": "2026-10-26 14:59:34 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 15:04:35 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 15:09:36 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 15:14:29 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-26 15:02:15 ET",
-  "epoch": 1793041335.2108424,
-  "pid": 3243,
+  "time": "2026-10-26 15:17:10 ET",
+  "epoch": 1793042230.3234553,
+  "pid": 3810,
   "supervisor_pid": 2106,
-  "tokens_scanned": 86,
-  "pairs_priced": 70,
+  "tokens_scanned": 87,
+  "pairs_priced": 71,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 13839,
+ "cycles": 13884,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 975,
-    "err": 1,
-    "last_err": "ReadTimeout 2026-10-26 14:46:41 ET"
+    "ok": 84,
+    "err": 0,
+    "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 115,
-    "err": 1,
-    "last_err": "ConnectionError 2026-10-26 14:17:18 ET"
-   },
-   "api.rugcheck.xyz": {
-    "ok": 7,
+    "ok": 10,
     "err": 0,
     "last_err": null
    }
   },
   "monitor": {}
  },
- "last_candidates": [
-  {
-   "token": "2eDhWKwV3FkqbHekni6QCZngibPDRekYYUR9oBQkpump",
-   "symbol": "OINKY",
-   "strategy": "S1_launch",
-   "liq": 58543,
-   "m5": 12.74,
-   "h1": 286,
-   "age_h": 0.35,
-   "t": "2026-10-26 15:02:15 ET",
-   "decision": "reject: S1 needs LP burned/locked >=90% (got 60%)"
-  }
- ],
+ "last_candidates": [],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
