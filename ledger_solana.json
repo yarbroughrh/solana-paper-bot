@@ -4530,28 +4530,40 @@
   {
    "t": "2026-10-26 11:12:53 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 11:17:58 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 11:22:59 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 11:28:09 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-26 11:16:57 ET",
-  "epoch": 1793027817.8298252,
+  "time": "2026-10-26 11:32:01 ET",
+  "epoch": 1793028721.6508262,
   "pid": 2569,
   "supervisor_pid": 2311,
-  "tokens_scanned": 79,
-  "pairs_priced": 63,
+  "tokens_scanned": 83,
+  "pairs_priced": 65,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 13168,
+ "cycles": 13213,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 3409,
+    "ok": 3679,
     "err": 1,
     "last_err": "HTTP 502 2026-10-26 09:55:47 ET"
    },
    "api.geckoterminal.com": {
-    "ok": 405,
+    "ok": 435,
     "err": 1,
     "last_err": "ReadTimeout 2026-10-26 10:06:02 ET"
    },
@@ -4563,19 +4575,7 @@
   },
   "monitor": {}
  },
- "last_candidates": [
-  {
-   "token": "VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump",
-   "symbol": "ANT",
-   "strategy": "S1_launch",
-   "liq": 146161,
-   "m5": 5.68,
-   "h1": 4329,
-   "age_h": 0.94,
-   "t": "2026-10-26 11:16:57 ET",
-   "decision": "skip: size $9.15 too small (desk cash $9.15)"
-  }
- ],
+ "last_candidates": [],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
