@@ -4926,35 +4926,64 @@
   {
    "t": "2026-10-26 19:31:17 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 19:36:21 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 19:41:35 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 19:46:29 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-26 19:32:18 ET",
-  "epoch": 1793057538.4724808,
-  "pid": 2253,
+  "time": "2026-10-26 19:47:30 ET",
+  "epoch": 1793058450.0727956,
+  "pid": 2358,
   "supervisor_pid": 2078,
-  "tokens_scanned": 102,
-  "pairs_priced": 83,
+  "tokens_scanned": 98,
+  "pairs_priced": 79,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 14644,
+ "cycles": 14689,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 91,
+    "ok": 182,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 10,
+    "ok": 20,
+    "err": 0,
+    "last_err": null
+   },
+   "api.rugcheck.xyz": {
+    "ok": 1,
     "err": 0,
     "last_err": null
    }
   },
   "monitor": {}
  },
- "last_candidates": [],
+ "last_candidates": [
+  {
+   "token": "8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump",
+   "symbol": "\u2588\u2588\u2588WIF",
+   "strategy": "S1_launch",
+   "liq": 39977,
+   "m5": 19.3,
+   "h1": 441,
+   "age_h": 0.8,
+   "t": "2026-10-26 19:47:29 ET",
+   "decision": "skip: size $9.15 too small (desk cash $9.15)"
+  }
+ ],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
