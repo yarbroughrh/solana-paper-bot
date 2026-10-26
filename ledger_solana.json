@@ -4458,52 +4458,52 @@
   {
    "t": "2026-10-26 09:42:36 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 09:47:28 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 09:52:29 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 09:57:31 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-26 09:46:48 ET",
-  "epoch": 1793022408.4503567,
+  "time": "2026-10-26 10:01:52 ET",
+  "epoch": 1793023312.6469736,
   "pid": 2569,
   "supervisor_pid": 2311,
-  "tokens_scanned": 82,
-  "pairs_priced": 66,
+  "tokens_scanned": 79,
+  "pairs_priced": 61,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 12899,
+ "cycles": 12944,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 1806,
-    "err": 0,
-    "last_err": null
+    "ok": 2072,
+    "err": 1,
+    "last_err": "HTTP 502 2026-10-26 09:55:47 ET"
    },
    "api.geckoterminal.com": {
-    "ok": 215,
+    "ok": 250,
     "err": 0,
     "last_err": null
    },
    "api.rugcheck.xyz": {
-    "ok": 5,
+    "ok": 8,
     "err": 0,
     "last_err": null
    }
   },
   "monitor": {}
  },
- "last_candidates": [
-  {
-   "token": "N3jhrKpfegV4T2wrSe7NNa79hNq1v2VLfj37hNtaLCj",
-   "symbol": "L1-79",
-   "strategy": "S1_launch",
-   "liq": 140080,
-   "m5": 12.44,
-   "h1": 59.72,
-   "age_h": 0.19,
-   "t": "2026-10-26 09:46:48 ET",
-   "decision": "reject: rugcheck danger: ['Large Amount of LP Unlocked']"
-  }
- ],
+ "last_candidates": [],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
