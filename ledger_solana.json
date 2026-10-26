@@ -4554,33 +4554,45 @@
   {
    "t": "2026-10-26 11:43:10 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 11:48:15 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 11:53:36 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 11:58:37 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-26 11:46:57 ET",
-  "epoch": 1793029617.3899899,
-  "pid": 4455,
+  "time": "2026-10-26 12:01:54 ET",
+  "epoch": 1793030514.653529,
+  "pid": 4551,
   "supervisor_pid": 2311,
-  "tokens_scanned": 79,
-  "pairs_priced": 60,
+  "tokens_scanned": 80,
+  "pairs_priced": 62,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 13257,
+ "cycles": 13301,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 18,
+    "ok": 54,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 5,
+    "ok": 10,
     "err": 0,
     "last_err": null
    },
    "api.rugcheck.xyz": {
-    "ok": 2,
+    "ok": 1,
     "err": 0,
     "last_err": null
    }
@@ -4589,26 +4601,15 @@
  },
  "last_candidates": [
   {
-   "token": "5Mbttpskm2EesN4ECWJiZSMh9cYNkAWLUoKHAbvtpump",
-   "symbol": "PUMPCAT",
+   "token": "42nvgmxdtEyHLD1qJUeTyexenLpCGoZsLfQPQnsdpump",
+   "symbol": "Fartcoin",
    "strategy": "S1_launch",
-   "liq": 40500,
-   "m5": 10.01,
-   "h1": 365,
-   "age_h": 0.78,
-   "t": "2026-10-26 11:46:55 ET",
-   "decision": "skip: size $9.15 too small (desk cash $9.15)"
-  },
-  {
-   "token": "EEjGcoWPXkvcdaBuyM9zJ5rZu2KQh5aFCYzoi4KCpump",
-   "symbol": "LAUNCH",
-   "strategy": "S1_launch",
-   "liq": 31797,
-   "m5": 10.29,
-   "h1": 198,
-   "age_h": 0.97,
-   "t": "2026-10-26 11:46:56 ET",
-   "decision": "skip: size $9.15 too small (desk cash $9.15)"
+   "liq": 58444,
+   "m5": 19.05,
+   "h1": 793,
+   "age_h": 0.84,
+   "t": "2026-10-26 12:01:54 ET",
+   "decision": "reject: copycat/bluechip ticker FARTCOIN"
   }
  ],
  "periods": [
