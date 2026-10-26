@@ -3790,40 +3790,64 @@
   {
    "t": "2026-10-25 19:42:55 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-25 19:47:58 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-25 19:53:00 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-25 19:58:00 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-25 19:45:57 ET",
-  "epoch": 1792971957.5832512,
+  "time": "2026-10-25 20:00:41 ET",
+  "epoch": 1792972841.215131,
   "pid": 3383,
   "supervisor_pid": 2092,
-  "tokens_scanned": 92,
-  "pairs_priced": 74,
+  "tokens_scanned": 90,
+  "pairs_priced": 73,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 10390,
+ "cycles": 10434,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 3710,
+    "ok": 3997,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 385,
+    "ok": 415,
     "err": 0,
     "last_err": null
    },
    "api.rugcheck.xyz": {
-    "ok": 10,
+    "ok": 12,
     "err": 0,
     "last_err": null
    }
   },
   "monitor": {}
  },
- "last_candidates": [],
+ "last_candidates": [
+  {
+   "token": "Ef1msGuVNfbKY6AzVM25SHEJWuEFSscKxTR2TazZpump",
+   "symbol": "BTC",
+   "strategy": "S1_launch",
+   "liq": 27332,
+   "m5": 5.16,
+   "h1": 116,
+   "age_h": 0.45,
+   "t": "2026-10-25 20:00:41 ET",
+   "decision": "skip: size $9.15 too small (desk cash $9.15)"
+  }
+ ],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
