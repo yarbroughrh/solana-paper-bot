@@ -4662,33 +4662,45 @@
   {
    "t": "2026-10-26 13:59:22 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 14:04:23 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 14:09:20 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 14:14:21 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-26 14:02:03 ET",
-  "epoch": 1793037723.468561,
-  "pid": 2484,
+  "time": "2026-10-26 14:17:01 ET",
+  "epoch": 1793038621.9588475,
+  "pid": 3243,
   "supervisor_pid": 2106,
-  "tokens_scanned": 85,
-  "pairs_priced": 62,
+  "tokens_scanned": 89,
+  "pairs_priced": 71,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 13659,
+ "cycles": 13704,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 84,
+    "ok": 168,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 10,
+    "ok": 20,
     "err": 0,
     "last_err": null
    },
    "api.rugcheck.xyz": {
-    "ok": 2,
+    "ok": 3,
     "err": 0,
     "last_err": null
    }
@@ -4697,15 +4709,15 @@
  },
  "last_candidates": [
   {
-   "token": "93V9oUvKghBNtqPrUjKtDCrr9nrLxsj5WuwddJWEpump",
-   "symbol": "Grokbot",
+   "token": "AYqXTCgv7jw8RXU6UR7yoqMo7hD1ryNfctjVQs1zpump",
+   "symbol": "SOLYA",
    "strategy": "S1_launch",
-   "liq": 34945,
-   "m5": 8.91,
-   "h1": 303,
-   "age_h": 0.52,
-   "t": "2026-10-26 14:02:03 ET",
-   "decision": "reject: S1 insider network detected"
+   "liq": 61540,
+   "m5": 6,
+   "h1": 916,
+   "age_h": 0.71,
+   "t": "2026-10-26 14:17:01 ET",
+   "decision": "skip: size $9.15 too small (desk cash $9.15)"
   }
  ],
  "periods": [
