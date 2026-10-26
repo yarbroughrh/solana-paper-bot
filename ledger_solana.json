@@ -4842,23 +4842,35 @@
   {
    "t": "2026-10-26 17:45:27 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 17:50:30 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 17:55:23 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 18:00:32 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-26 17:47:37 ET",
-  "epoch": 1793051257.2715359,
-  "pid": 4915,
+  "time": "2026-10-26 18:02:32 ET",
+  "epoch": 1793052152.9579275,
+  "pid": 4992,
   "supervisor_pid": 2106,
-  "tokens_scanned": 88,
-  "pairs_priced": 75,
+  "tokens_scanned": 92,
+  "pairs_priced": 80,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 14332,
+ "cycles": 14377,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 48,
+    "ok": 77,
     "err": 0,
     "last_err": null
    },
@@ -4866,28 +4878,11 @@
     "ok": 10,
     "err": 0,
     "last_err": null
-   },
-   "api.rugcheck.xyz": {
-    "ok": 1,
-    "err": 0,
-    "last_err": null
    }
   },
   "monitor": {}
  },
- "last_candidates": [
-  {
-   "token": "72rZQyT14p1cNDCJsePibxKoZTsF5JxD5jaQnoyEpump",
-   "symbol": "Assay",
-   "strategy": "S1_launch",
-   "liq": 23622,
-   "m5": 17.6,
-   "h1": 115,
-   "age_h": 0.28,
-   "t": "2026-10-26 17:47:37 ET",
-   "decision": "skip: size $9.15 too small (desk cash $9.15)"
-  }
- ],
+ "last_candidates": [],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
