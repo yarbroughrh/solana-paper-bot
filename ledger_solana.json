@@ -4542,40 +4542,75 @@
   {
    "t": "2026-10-26 11:28:09 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 11:33:01 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 11:38:03 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 11:43:10 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-26 11:32:01 ET",
-  "epoch": 1793028721.6508262,
-  "pid": 2569,
+  "time": "2026-10-26 11:46:57 ET",
+  "epoch": 1793029617.3899899,
+  "pid": 4455,
   "supervisor_pid": 2311,
-  "tokens_scanned": 83,
-  "pairs_priced": 65,
+  "tokens_scanned": 79,
+  "pairs_priced": 60,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 13213,
+ "cycles": 13257,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 3679,
-    "err": 1,
-    "last_err": "HTTP 502 2026-10-26 09:55:47 ET"
+    "ok": 18,
+    "err": 0,
+    "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 435,
-    "err": 1,
-    "last_err": "ReadTimeout 2026-10-26 10:06:02 ET"
+    "ok": 5,
+    "err": 0,
+    "last_err": null
    },
    "api.rugcheck.xyz": {
-    "ok": 21,
+    "ok": 2,
     "err": 0,
     "last_err": null
    }
   },
   "monitor": {}
  },
- "last_candidates": [],
+ "last_candidates": [
+  {
+   "token": "5Mbttpskm2EesN4ECWJiZSMh9cYNkAWLUoKHAbvtpump",
+   "symbol": "PUMPCAT",
+   "strategy": "S1_launch",
+   "liq": 40500,
+   "m5": 10.01,
+   "h1": 365,
+   "age_h": 0.78,
+   "t": "2026-10-26 11:46:55 ET",
+   "decision": "skip: size $9.15 too small (desk cash $9.15)"
+  },
+  {
+   "token": "EEjGcoWPXkvcdaBuyM9zJ5rZu2KQh5aFCYzoi4KCpump",
+   "symbol": "LAUNCH",
+   "strategy": "S1_launch",
+   "liq": 31797,
+   "m5": 10.29,
+   "h1": 198,
+   "age_h": 0.97,
+   "t": "2026-10-26 11:46:56 ET",
+   "decision": "skip: size $9.15 too small (desk cash $9.15)"
+  }
+ ],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
