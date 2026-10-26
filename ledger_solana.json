@@ -1014,8 +1014,8 @@
   "GCN58WHB85WJ2kt3vwsmNUs8yhLTQNGcFguP77AKpump": 1792963954.6880758
  },
  "day": {
-  "date": "2026-10-25",
-  "start_equity": 545.47,
+  "date": "2026-10-26",
+  "start_equity": 523.2,
   "halted": false
  },
  "equity_history": [
@@ -3982,28 +3982,40 @@
   {
    "t": "2026-10-25 23:44:22 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-25 23:49:25 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-25 23:54:25 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-25 23:59:36 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-25 23:46:03 ET",
-  "epoch": 1792986363.126321,
+  "time": "2026-10-26 00:01:07 ET",
+  "epoch": 1792987267.9553187,
   "pid": 2994,
   "supervisor_pid": 2343,
-  "tokens_scanned": 89,
-  "pairs_priced": 77,
+  "tokens_scanned": 84,
+  "pairs_priced": 72,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 11106,
+ "cycles": 11151,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 2626,
+    "ok": 2903,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 310,
+    "ok": 340,
     "err": 0,
     "last_err": null
    },
