@@ -4734,28 +4734,40 @@
   {
    "t": "2026-10-26 15:29:36 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 15:34:38 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 15:39:50 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 15:44:41 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-26 15:32:17 ET",
-  "epoch": 1793043137.724906,
+  "time": "2026-10-26 15:47:23 ET",
+  "epoch": 1793044043.8433225,
   "pid": 3857,
   "supervisor_pid": 2106,
-  "tokens_scanned": 85,
-  "pairs_priced": 68,
+  "tokens_scanned": 91,
+  "pairs_priced": 74,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 13929,
+ "cycles": 13974,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 252,
+    "ok": 541,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 30,
+    "ok": 65,
     "err": 0,
     "last_err": null
    },
@@ -4767,19 +4779,7 @@
   },
   "monitor": {}
  },
- "last_candidates": [
-  {
-   "token": "Gwk57iPpEZZzyfZQrHW7J3rwsPaifnjDJpvSYQ44pump",
-   "symbol": "KOBE",
-   "strategy": "S1_launch",
-   "liq": 25748,
-   "m5": 6.64,
-   "h1": 133,
-   "age_h": 0.8,
-   "t": "2026-10-26 15:32:17 ET",
-   "decision": "reject: S1 insider network detected"
-  }
- ],
+ "last_candidates": [],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
