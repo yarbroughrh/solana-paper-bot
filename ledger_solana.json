@@ -5758,28 +5758,40 @@
   {
    "t": "2026-10-27 12:59:16 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-27 13:04:26 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-27 13:09:18 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-27 13:14:19 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-27 13:03:37 ET",
-  "epoch": 1793120617.843707,
+  "time": "2026-10-27 13:18:44 ET",
+  "epoch": 1793121524.8149722,
   "pid": 2314,
   "supervisor_pid": 2313,
-  "tokens_scanned": 86,
-  "pairs_priced": 71,
+  "tokens_scanned": 87,
+  "pairs_priced": 74,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 17774,
+ "cycles": 17819,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 540,
+    "ok": 810,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 65,
+    "ok": 100,
     "err": 0,
     "last_err": null
    },
@@ -5791,19 +5803,7 @@
   },
   "monitor": {}
  },
- "last_candidates": [
-  {
-   "token": "3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump",
-   "symbol": "SI",
-   "strategy": "S1_launch",
-   "liq": 40849,
-   "m5": 9.69,
-   "h1": 344,
-   "age_h": 0.25,
-   "t": "2026-10-27 13:03:37 ET",
-   "decision": "skip: size $9.15 too small (desk cash $9.15)"
-  }
- ],
+ "last_candidates": [],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
