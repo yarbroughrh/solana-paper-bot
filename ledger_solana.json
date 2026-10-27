@@ -5914,52 +5914,52 @@
   {
    "t": "2026-10-27 18:30:45 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-27 18:35:58 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-27 18:40:50 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-27 18:45:52 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-27 18:34:07 ET",
-  "epoch": 1793140447.7310338,
+  "time": "2026-10-27 18:48:55 ET",
+  "epoch": 1793141335.2419002,
   "pid": 2419,
   "supervisor_pid": 2418,
-  "tokens_scanned": 93,
-  "pairs_priced": 78,
+  "tokens_scanned": 91,
+  "pairs_priced": 79,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 18356,
+ "cycles": 18400,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 308,
+    "ok": 602,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 35,
+    "ok": 65,
     "err": 0,
     "last_err": null
    },
    "api.rugcheck.xyz": {
-    "ok": 3,
+    "ok": 4,
     "err": 0,
     "last_err": null
    }
   },
   "monitor": {}
  },
- "last_candidates": [
-  {
-   "token": "2cRhjCGvMQViKtTpgdQUBUxUBfQQpvG2VjnEYZmQpump",
-   "symbol": "SF",
-   "strategy": "S1_launch",
-   "liq": 35218,
-   "m5": 13.72,
-   "h1": 255,
-   "age_h": 0.7,
-   "t": "2026-10-27 18:34:07 ET",
-   "decision": "skip: size $9.15 too small (desk cash $9.15)"
-  }
- ],
+ "last_candidates": [],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
