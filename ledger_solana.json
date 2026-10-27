@@ -4938,28 +4938,40 @@
   {
    "t": "2026-10-26 19:46:29 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 19:51:23 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 19:56:25 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 20:01:28 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-26 19:47:30 ET",
-  "epoch": 1793058450.0727956,
-  "pid": 2358,
+  "time": "2026-10-26 20:02:28 ET",
+  "epoch": 1793059348.9664855,
+  "pid": 2514,
   "supervisor_pid": 2078,
-  "tokens_scanned": 98,
-  "pairs_priced": 79,
+  "tokens_scanned": 95,
+  "pairs_priced": 75,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 14689,
+ "cycles": 14734,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 182,
+    "ok": 266,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 20,
+    "ok": 30,
     "err": 0,
     "last_err": null
    },
@@ -4973,15 +4985,15 @@
  },
  "last_candidates": [
   {
-   "token": "8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump",
-   "symbol": "\u2588\u2588\u2588WIF",
+   "token": "DNwtHLeLk6m8hb5LUnMy5gfr7gu667s5fvNxunWYpump",
+   "symbol": "STONK",
    "strategy": "S1_launch",
-   "liq": 39977,
-   "m5": 19.3,
-   "h1": 441,
-   "age_h": 0.8,
-   "t": "2026-10-26 19:47:29 ET",
-   "decision": "skip: size $9.15 too small (desk cash $9.15)"
+   "liq": 32249,
+   "m5": 16.5,
+   "h1": 223,
+   "age_h": 0.67,
+   "t": "2026-10-26 20:02:28 ET",
+   "decision": "reject: copycat of STONK (6GmAFS..)"
   }
  ],
  "periods": [
