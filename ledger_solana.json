@@ -4962,52 +4962,52 @@
   {
    "t": "2026-10-26 20:16:36 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 20:21:39 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 20:26:42 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 20:31:43 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-26 20:17:37 ET",
-  "epoch": 1793060257.411168,
+  "time": "2026-10-26 20:32:33 ET",
+  "epoch": 1793061153.4245548,
   "pid": 2514,
   "supervisor_pid": 2078,
-  "tokens_scanned": 98,
-  "pairs_priced": 79,
+  "tokens_scanned": 91,
+  "pairs_priced": 74,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 14779,
+ "cycles": 14823,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 581,
+    "ok": 882,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 60,
+    "ok": 95,
     "err": 0,
     "last_err": null
    },
    "api.rugcheck.xyz": {
-    "ok": 2,
+    "ok": 3,
     "err": 0,
     "last_err": null
    }
   },
   "monitor": {}
  },
- "last_candidates": [
-  {
-   "token": "9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump",
-   "symbol": "CHICO",
-   "strategy": "S1_launch",
-   "liq": 85641,
-   "m5": 10.22,
-   "h1": 2251,
-   "age_h": 0.43,
-   "t": "2026-10-26 20:17:37 ET",
-   "decision": "reject: S1 needs top10 <35% (got 46.3%)"
-  }
- ],
+ "last_candidates": [],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
