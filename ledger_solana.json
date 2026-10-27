@@ -5782,40 +5782,64 @@
   {
    "t": "2026-10-27 13:29:29 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-27 13:34:30 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-27 13:39:42 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-27 13:44:33 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-27 13:33:50 ET",
-  "epoch": 1793122430.4358501,
+  "time": "2026-10-27 13:48:34 ET",
+  "epoch": 1793123314.6591735,
   "pid": 2314,
   "supervisor_pid": 2313,
-  "tokens_scanned": 86,
-  "pairs_priced": 71,
+  "tokens_scanned": 87,
+  "pairs_priced": 73,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 17864,
+ "cycles": 17908,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 1080,
+    "ok": 1343,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 130,
-    "err": 0,
-    "last_err": null
+    "ok": 155,
+    "err": 1,
+    "last_err": "ReadTimeout 2026-10-27 13:39:41 ET"
    },
    "api.rugcheck.xyz": {
-    "ok": 3,
+    "ok": 5,
     "err": 0,
     "last_err": null
    }
   },
   "monitor": {}
  },
- "last_candidates": [],
+ "last_candidates": [
+  {
+   "token": "AH56KNHWiM7Lqs7YnWaGN2TQSxCmvNADGbhTrW2opump",
+   "symbol": "SI",
+   "strategy": "S1_launch",
+   "liq": 41502,
+   "m5": 7.03,
+   "h1": 421,
+   "age_h": 0.25,
+   "t": "2026-10-27 13:48:34 ET",
+   "decision": "reject: copycat of SI (3yM6w9..)"
+  }
+ ],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
