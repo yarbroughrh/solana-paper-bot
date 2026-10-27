@@ -5150,28 +5150,40 @@
   {
    "t": "2026-10-27 00:13:37 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-27 00:18:40 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-27 00:23:43 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-27 00:28:46 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-27 00:17:40 ET",
-  "epoch": 1793074660.0544052,
+  "time": "2026-10-27 00:32:48 ET",
+  "epoch": 1793075568.333255,
   "pid": 3961,
   "supervisor_pid": 2078,
-  "tokens_scanned": 99,
-  "pairs_priced": 74,
+  "tokens_scanned": 96,
+  "pairs_priced": 73,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 15493,
+ "cycles": 15538,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 1827,
+    "ok": 2142,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 191,
+    "ok": 226,
     "err": 1,
     "last_err": "ReadTimeout 2026-10-26 23:47:31 ET"
    },
