@@ -5938,52 +5938,52 @@
   {
    "t": "2026-10-27 16:45:57 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-27 16:51:00 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-27 16:56:01 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-27 17:01:04 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-27 16:48:59 ET",
-  "epoch": 1793134139.5911586,
+  "time": "2026-10-27 17:03:48 ET",
+  "epoch": 1793135028.367678,
   "pid": 2314,
   "supervisor_pid": 2313,
-  "tokens_scanned": 91,
-  "pairs_priced": 74,
+  "tokens_scanned": 90,
+  "pairs_priced": 75,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 18445,
+ "cycles": 18489,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 4616,
+    "ok": 4910,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 524,
+    "ok": 554,
     "err": 6,
     "last_err": "ReadTimeout 2026-10-27 16:40:45 ET"
    },
    "api.rugcheck.xyz": {
-    "ok": 15,
+    "ok": 16,
     "err": 0,
     "last_err": null
    }
   },
   "monitor": {}
  },
- "last_candidates": [
-  {
-   "token": "EZDzKuPm5cfK2K1SVytUaGjXRFp5rcDFP1LtWGVapump",
-   "symbol": "Kekius",
-   "strategy": "S1_launch",
-   "liq": 61509,
-   "m5": 11.01,
-   "h1": 932,
-   "age_h": 0.66,
-   "t": "2026-10-27 16:48:59 ET",
-   "decision": "skip: size $9.15 too small (desk cash $9.15)"
-  }
- ],
+ "last_candidates": [],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
