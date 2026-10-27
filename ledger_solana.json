@@ -5402,40 +5402,64 @@
   {
    "t": "2026-10-27 05:30:36 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-27 05:35:47 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-27 05:40:40 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-27 05:45:41 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-27 05:32:57 ET",
-  "epoch": 1793093577.65141,
+  "time": "2026-10-27 05:48:22 ET",
+  "epoch": 1793094502.1638615,
   "pid": 5026,
   "supervisor_pid": 2323,
-  "tokens_scanned": 82,
-  "pairs_priced": 69,
+  "tokens_scanned": 80,
+  "pairs_priced": 66,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 16433,
+ "cycles": 16479,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 378,
+    "ok": 654,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 45,
+    "ok": 80,
     "err": 0,
     "last_err": null
    },
    "api.rugcheck.xyz": {
-    "ok": 1,
+    "ok": 2,
     "err": 0,
     "last_err": null
    }
   },
   "monitor": {}
  },
- "last_candidates": [],
+ "last_candidates": [
+  {
+   "token": "5XapX9FpytfrwqY8Y7mNStwrur8u5fNnJjEcJNXZpump",
+   "symbol": "urmom",
+   "strategy": "S1_launch",
+   "liq": 36939,
+   "m5": 4.75,
+   "h1": 360,
+   "age_h": 0.45,
+   "t": "2026-10-27 05:48:22 ET",
+   "decision": "reject: S1 insider network detected"
+  }
+ ],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
