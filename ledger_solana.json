@@ -5830,30 +5830,42 @@
   {
    "t": "2026-10-27 14:29:48 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-27 14:34:50 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-27 14:39:55 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-27 14:44:56 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-27 14:33:50 ET",
-  "epoch": 1793126030.406213,
+  "time": "2026-10-27 14:48:57 ET",
+  "epoch": 1793126937.4291005,
   "pid": 2314,
   "supervisor_pid": 2313,
   "tokens_scanned": 89,
-  "pairs_priced": 75,
+  "pairs_priced": 76,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 18043,
+ "cycles": 18088,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 2181,
+    "ok": 2451,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 252,
-    "err": 2,
-    "last_err": "ReadTimeout 2026-10-27 13:56:10 ET"
+    "ok": 278,
+    "err": 3,
+    "last_err": "ReadTimeout 2026-10-27 14:36:02 ET"
    },
    "api.rugcheck.xyz": {
     "ok": 6,
@@ -5863,19 +5875,7 @@
   },
   "monitor": {}
  },
- "last_candidates": [
-  {
-   "token": "FWQx8Q8Nxtc6S4YkcuUcT7eFPHYdAox8V1UZQ4YWpump",
-   "symbol": "$GIGR",
-   "strategy": "S1_launch",
-   "liq": 30602,
-   "m5": 7.62,
-   "h1": 217,
-   "age_h": 0.43,
-   "t": "2026-10-27 14:33:50 ET",
-   "decision": "skip: size $9.15 too small (desk cash $9.15)"
-  }
- ],
+ "last_candidates": [],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
