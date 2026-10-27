@@ -1014,7 +1014,7 @@
   "GCN58WHB85WJ2kt3vwsmNUs8yhLTQNGcFguP77AKpump": 1792963954.6880758
  },
  "day": {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "start_equity": 523.2,
   "halted": false
  },
@@ -5126,28 +5126,40 @@
   {
    "t": "2026-10-26 23:43:19 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 23:48:22 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 23:53:26 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-26 23:58:28 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-26 23:47:42 ET",
-  "epoch": 1793072862.6248038,
+  "time": "2026-10-27 00:02:51 ET",
+  "epoch": 1793073771.580449,
   "pid": 3961,
   "supervisor_pid": 2078,
-  "tokens_scanned": 81,
-  "pairs_priced": 57,
+  "tokens_scanned": 96,
+  "pairs_priced": 72,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 15404,
+ "cycles": 15449,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 1209,
+    "ok": 1519,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 131,
+    "ok": 161,
     "err": 1,
     "last_err": "ReadTimeout 2026-10-26 23:47:31 ET"
    },
