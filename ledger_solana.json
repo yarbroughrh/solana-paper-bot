@@ -6992,38 +6992,38 @@
    "equity": 523.2
   },
   {
-   "t": "2026-10-28 17:07:33 ET",
+   "t": "2026-10-28 17:22:25 ET",
    "equity": 523.2
   },
   {
-   "t": "2026-10-28 17:12:34 ET",
+   "t": "2026-10-28 17:27:27 ET",
    "equity": 523.2
   },
   {
-   "t": "2026-10-28 17:17:44 ET",
+   "t": "2026-10-28 17:32:28 ET",
    "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-28 17:20:15 ET",
-  "epoch": 1793222415.844766,
-  "pid": 5805,
-  "supervisor_pid": 2339,
-  "tokens_scanned": 86,
-  "pairs_priced": 67,
+  "time": "2026-10-28 17:35:49 ET",
+  "epoch": 1793223349.2823849,
+  "pid": 2637,
+  "supervisor_pid": 2636,
+  "tokens_scanned": 84,
+  "pairs_priced": 66,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 22434,
+ "cycles": 22436,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 474,
+    "ok": 270,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 60,
+    "ok": 35,
     "err": 0,
     "last_err": null
    },
@@ -7035,7 +7035,19 @@
   },
   "monitor": {}
  },
- "last_candidates": [],
+ "last_candidates": [
+  {
+   "token": "dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump",
+   "symbol": "CATBOT",
+   "strategy": "S1_launch",
+   "liq": 68703,
+   "m5": 8.45,
+   "h1": 1179,
+   "age_h": 0.81,
+   "t": "2026-10-28 17:35:49 ET",
+   "decision": "skip: size $9.15 too small (desk cash $9.15)"
+  }
+ ],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
@@ -7299,6 +7311,12 @@
    "kind": "downtime",
    "seconds": 8113,
    "last_heartbeat": "2026-10-27 16:03:59 ET"
+  },
+  {
+   "t": "2026-10-28 17:21:00 ET",
+   "kind": "downtime",
+   "seconds": 898,
+   "last_heartbeat": "2026-10-28 17:06:01 ET"
   }
  ]
 }
