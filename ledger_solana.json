@@ -7098,28 +7098,40 @@
   {
    "t": "2026-10-28 19:33:16 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-28 19:38:17 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-28 19:43:18 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-28 19:48:20 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-28 19:35:57 ET",
-  "epoch": 1793230557.0291266,
+  "time": "2026-10-28 19:51:00 ET",
+  "epoch": 1793231460.7267041,
   "pid": 2637,
   "supervisor_pid": 2636,
-  "tokens_scanned": 86,
-  "pairs_priced": 67,
+  "tokens_scanned": 88,
+  "pairs_priced": 71,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 22794,
+ "cycles": 22839,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 2581,
+    "ok": 2851,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 290,
+    "ok": 320,
     "err": 0,
     "last_err": null
    },
@@ -7131,19 +7143,7 @@
   },
   "monitor": {}
  },
- "last_candidates": [
-  {
-   "token": "EnMv4aju8JzWkYQfUXbfekhwRWqXvMELKxrMLaHQpump",
-   "symbol": "FLOATCAT",
-   "strategy": "S1_launch",
-   "liq": 38216,
-   "m5": 10.74,
-   "h1": 353,
-   "age_h": 0.28,
-   "t": "2026-10-28 19:35:57 ET",
-   "decision": "skip: size $9.15 too small (desk cash $9.15)"
-  }
- ],
+ "last_candidates": [],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
