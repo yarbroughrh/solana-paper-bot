@@ -6714,30 +6714,42 @@
   {
    "t": "2026-10-28 11:15:51 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-28 11:20:52 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-28 11:25:44 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-28 11:30:45 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-28 11:20:32 ET",
-  "epoch": 1793200832.6515253,
-  "pid": 4377,
+  "time": "2026-10-28 11:34:46 ET",
+  "epoch": 1793201686.242324,
+  "pid": 5486,
   "supervisor_pid": 2120,
-  "tokens_scanned": 79,
-  "pairs_priced": 66,
+  "tokens_scanned": 76,
+  "pairs_priced": 62,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 21360,
+ "cycles": 21403,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 1110,
+    "ok": 180,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 130,
-    "err": 1,
-    "last_err": "ConnectionError 2026-10-28 10:53:42 ET"
+    "ok": 25,
+    "err": 0,
+    "last_err": null
    },
    "api.rugcheck.xyz": {
     "ok": 1,
@@ -6747,19 +6759,7 @@
   },
   "monitor": {}
  },
- "last_candidates": [
-  {
-   "token": "D9NXzZxiJxgp2U69EDWJ1tJDMtGcEiWh2xGGY58Gpump",
-   "symbol": "Potpot",
-   "strategy": "S1_launch",
-   "liq": 29400,
-   "m5": 18.92,
-   "h1": 200,
-   "age_h": 0.96,
-   "t": "2026-10-28 11:20:32 ET",
-   "decision": "skip: size $9.15 too small (desk cash $9.15)"
-  }
- ],
+ "last_candidates": [],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
