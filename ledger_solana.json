@@ -6370,40 +6370,64 @@
   {
    "t": "2026-10-28 04:04:05 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-28 04:09:05 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-28 04:14:07 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-28 04:19:14 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-28 04:04:45 ET",
-  "epoch": 1793174685.1147745,
-  "pid": 2273,
+  "time": "2026-10-28 04:19:55 ET",
+  "epoch": 1793175595.0257452,
+  "pid": 4373,
   "supervisor_pid": 2272,
-  "tokens_scanned": 76,
-  "pairs_priced": 63,
+  "tokens_scanned": 74,
+  "pairs_priced": 61,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 20058,
+ "cycles": 20103,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 4321,
+    "ok": 72,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 515,
+    "ok": 10,
     "err": 0,
     "last_err": null
    },
    "api.rugcheck.xyz": {
-    "ok": 2,
+    "ok": 1,
     "err": 0,
     "last_err": null
    }
   },
   "monitor": {}
  },
- "last_candidates": [],
+ "last_candidates": [
+  {
+   "token": "JZmhMR5Zu1bRmeaERNGE31eExKVBJDQVJGYay8fZU3v",
+   "symbol": "StonkPool",
+   "strategy": "S1_launch",
+   "liq": 20706,
+   "m5": 12.58,
+   "h1": 40.69,
+   "age_h": 0.3,
+   "t": "2026-10-28 04:19:55 ET",
+   "decision": "reject: S1 insider network detected"
+  }
+ ],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
