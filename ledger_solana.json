@@ -6382,28 +6382,40 @@
   {
    "t": "2026-10-28 04:19:14 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-28 04:24:23 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-28 04:29:23 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-28 04:34:24 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-28 04:19:55 ET",
-  "epoch": 1793175595.0257452,
-  "pid": 4373,
+  "time": "2026-10-28 04:34:44 ET",
+  "epoch": 1793176484.903287,
+  "pid": 4426,
   "supervisor_pid": 2272,
   "tokens_scanned": 74,
   "pairs_priced": 61,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 20103,
+ "cycles": 20147,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 72,
+    "ok": 198,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 10,
+    "ok": 25,
     "err": 0,
     "last_err": null
    },
@@ -6415,19 +6427,7 @@
   },
   "monitor": {}
  },
- "last_candidates": [
-  {
-   "token": "JZmhMR5Zu1bRmeaERNGE31eExKVBJDQVJGYay8fZU3v",
-   "symbol": "StonkPool",
-   "strategy": "S1_launch",
-   "liq": 20706,
-   "m5": 12.58,
-   "h1": 40.69,
-   "age_h": 0.3,
-   "t": "2026-10-28 04:19:55 ET",
-   "decision": "reject: S1 insider network detected"
-  }
- ],
+ "last_candidates": [],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
