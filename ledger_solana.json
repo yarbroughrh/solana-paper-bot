@@ -7086,40 +7086,64 @@
   {
    "t": "2026-10-28 19:18:12 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-28 19:23:22 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-28 19:28:14 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-28 19:33:16 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-28 19:21:01 ET",
-  "epoch": 1793229661.9758844,
+  "time": "2026-10-28 19:35:57 ET",
+  "epoch": 1793230557.0291266,
   "pid": 2637,
   "supervisor_pid": 2636,
-  "tokens_scanned": 87,
-  "pairs_priced": 65,
+  "tokens_scanned": 86,
+  "pairs_priced": 67,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 22749,
+ "cycles": 22794,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 2311,
+    "ok": 2581,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 260,
+    "ok": 290,
     "err": 0,
     "last_err": null
    },
    "api.rugcheck.xyz": {
-    "ok": 6,
+    "ok": 7,
     "err": 0,
     "last_err": null
    }
   },
   "monitor": {}
  },
- "last_candidates": [],
+ "last_candidates": [
+  {
+   "token": "EnMv4aju8JzWkYQfUXbfekhwRWqXvMELKxrMLaHQpump",
+   "symbol": "FLOATCAT",
+   "strategy": "S1_launch",
+   "liq": 38216,
+   "m5": 10.74,
+   "h1": 353,
+   "age_h": 0.28,
+   "t": "2026-10-28 19:35:57 ET",
+   "decision": "skip: size $9.15 too small (desk cash $9.15)"
+  }
+ ],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
