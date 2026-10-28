@@ -6942,28 +6942,40 @@
   {
    "t": "2026-10-28 16:02:19 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-28 16:07:20 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-28 16:12:21 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-28 16:17:22 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-28 16:06:00 ET",
-  "epoch": 1793217960.4360945,
+  "time": "2026-10-28 16:21:02 ET",
+  "epoch": 1793218862.9816604,
   "pid": 4866,
   "supervisor_pid": 2339,
-  "tokens_scanned": 76,
+  "tokens_scanned": 78,
   "pairs_priced": 60,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 22212,
+ "cycles": 22257,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 1296,
+    "ok": 1566,
     "err": 0,
     "last_err": null
    },
    "api.geckoterminal.com": {
-    "ok": 155,
+    "ok": 190,
     "err": 0,
     "last_err": null
    },
@@ -6975,19 +6987,7 @@
   },
   "monitor": {}
  },
- "last_candidates": [
-  {
-   "token": "Gv2KWBcDsFBXodR7zddeyTVPhRnsuSXeNK4VrzSjpump",
-   "symbol": "PENISINU",
-   "strategy": "S1_launch",
-   "liq": 49787,
-   "m5": 17.12,
-   "h1": 543,
-   "age_h": 0.49,
-   "t": "2026-10-28 16:06:00 ET",
-   "decision": "skip: size $9.15 too small (desk cash $9.15)"
-  }
- ],
+ "last_candidates": [],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
