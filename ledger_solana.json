@@ -6798,40 +6798,64 @@
   {
    "t": "2026-10-28 13:01:29 ET",
    "equity": 523.2
+  },
+  {
+   "t": "2026-10-28 13:06:29 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-28 13:11:39 ET",
+   "equity": 523.2
+  },
+  {
+   "t": "2026-10-28 13:16:31 ET",
+   "equity": 523.2
   }
  ],
  "heartbeat": {
-  "time": "2026-10-28 13:05:29 ET",
-  "epoch": 1793207129.592209,
+  "time": "2026-10-28 13:20:32 ET",
+  "epoch": 1793208032.5720186,
   "pid": 2340,
   "supervisor_pid": 2339,
-  "tokens_scanned": 78,
-  "pairs_priced": 67,
+  "tokens_scanned": 80,
+  "pairs_priced": 69,
   "equity": 523.2,
   "params_version": "v3-tuned-2026-10-23"
  },
- "cycles": 21673,
+ "cycles": 21718,
  "api_stats": {
   "scan": {
    "api.dexscreener.com": {
-    "ok": 1617,
+    "ok": 1887,
     "err": 1,
     "last_err": "HTTP 502 2026-10-28 11:35:38 ET"
    },
    "api.geckoterminal.com": {
-    "ok": 195,
+    "ok": 225,
     "err": 0,
     "last_err": null
    },
    "api.rugcheck.xyz": {
-    "ok": 5,
+    "ok": 6,
     "err": 0,
     "last_err": null
    }
   },
   "monitor": {}
  },
- "last_candidates": [],
+ "last_candidates": [
+  {
+   "token": "4Ytm5FuiPrqPGZcn7BkWTQLDTWH9gLtftdzkxpEcdar5",
+   "symbol": "HLN",
+   "strategy": "S1_launch",
+   "liq": 32664,
+   "m5": 6.53,
+   "h1": 296,
+   "age_h": 0.84,
+   "t": "2026-10-28 13:20:32 ET",
+   "decision": "reject: S1 needs rug score <=20 (got 29)"
+  }
+ ],
  "periods": [
   {
    "name": "v3-tuned-2026-10-23",
